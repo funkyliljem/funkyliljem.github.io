@@ -1,0 +1,40 @@
+#content{
+    margin: 0 auto;
+    max-width: 960 px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    line-height: 20 px;
+}
+    .topbox{
+        width: 650 px;
+        height: 60 px;
+        margin: 0;
+        padding: 20 px 40 px;
+        display: flex;
+        float: center;
+        flex-flow: row wrap;
+        background-color: rgb(35, 195, 216); 
+}
+    .middlebox{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    line-height: 20 px;
+    flex-flow: row wrap;
+}
+    .bottombox{
+        width: 650 px;
+        height: 60 px;
+        margin: 0;
+        padding: 20 px 40 px;
+        display: flex;
+        float: center;
+        background-color: rgb(35, 195, 216); 
+        font-family: "Trebuchet MS", Helvetica, sans-serif;        
+}
+h1,h3{
+    color: white;
+    text-align: center;
+}
+    .photo{
+        align-items: right;
+        float: right;
+        padding-left: 250 px;
+}
