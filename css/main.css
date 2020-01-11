@@ -42,4 +42,6 @@ h3 {
 .photo {
     align-items: right;
     float: right;
+    padding-left: 450 px; 
+
 }
