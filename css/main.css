@@ -5,7 +5,7 @@
     line-height: 20 px;
 }
 
-.topbox, .bottombox {
+header, footer {
     width: 650 px;
     height: 60 px;
     margin: 0;
@@ -15,16 +15,17 @@
     background-color: rgb(35, 195, 216);
 }
   
-.middlebox {
+nav{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     line-height: 20 px;
 }
 
 h1,
-h3 {
+h4 {
     color:white;
     text-align: center;
 }
+
 
 .photo {
     align-items: right;
