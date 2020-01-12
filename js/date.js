@@ -30,7 +30,7 @@ let fulldate = dayName + " , " + monthName + " " + d.getDate() + " , " + d.getFu
 
 document.getElementById("currentdate").textContent = fulldate; 
 
-//********************** */
+//***********************/
 try{
   let options = {
         weekday: "long",
@@ -39,4 +39,6 @@ try{
         year: "numeric",
     };
     document.getElementById("currentdate2").textContent = new Date().toLocaleDateString("en-US", options);
+} catch (e){
+    alert("Error with code or your browser does not support Locale");
 }
