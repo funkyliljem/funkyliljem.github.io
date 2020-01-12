@@ -26,9 +26,9 @@ let months = [
 let d = new Date();
 let dayName = daynames[d.getDay()];
 let monthName = months[d.getMonth()];
-let fulldate = d.getFullYear();
+let fulldate = monthName + " " + d.getDate() + " , " + d.getFullYear();
 
-document.getElementById("currentdate").textContent = fulldate; 
+document.getElementById("modifieddate").textContent = fulldate; 
 
 //***********************/
 try{
@@ -39,9 +39,8 @@ try{
         year: "numeric",
     };
 
-    document.getElementById("currentdate2").textContent = new Date().toLocaleDateString("en-US", options);
+    document.getElementById("modifieddate2").textContent = new Date().toLocaleDateString("en-US", options);
 }   catch (e){
         alert("Error with code or your browser does not support Locale");
     
 }
-
