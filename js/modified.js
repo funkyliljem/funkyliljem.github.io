@@ -1,46 +1,24 @@
-let daynames = [
-    "Monday", 
-    "Tuesday", 
-    "Wednesday", 
-    "Thursday", 
-    "Friday", 
-    "Saturday", 
-    "Sunday"
-];
-
-let months = [
-    "January", 
-    "February", 
-    "March", 
-    "April", 
-    "May", 
-    "June", 
-    "July", 
-    "August", 
-    "September", 
-    "October", 
-    "November", 
-    "December"
-];
-
-let d = new Date();
-let dayName = daynames[d.getDay()];
-let monthName = months[d.getMonth()];
-let fulldate = monthName + " " + d.getDate() + " , " + d.getFullYear();
-
-document.getElementById("modifieddate").textContent = fulldate; 
-
-//***********************/
-try{
-  let options = {
-        weekday: "long",
-        day: "numeric",
-        month: "long",
-        year: "numeric",
-    };
-
-    document.getElementById("modifieddate2").textContent = new Date().toLocaleDateString("en-US", options);
-}   catch (e){
-        alert("Error with code or your browser does not support Locale");
-    
+function lastModified() {
+    var modiDate = new Date(document.lastModified);
+    var showAs = (modiDate.getMonth() + 1) + "-" +  modiDate.getDate() + "-" + modiDate.getFullYear();
+    return showAs
 }
+
+function GetTime() {
+    var modiDate = new Date();
+    var Seconds
+
+    if (modiDate.getSeconds() < 10) {
+        Seconds = "0" + modiDate.getSeconds();
+    } else {
+        Seconds = modiDate.getSeconds();
+    }
+
+    var modiDate = new Date();
+    var CurTime = modiDate.getHours() + ":" + modiDate.getMinutes() + ":" + Seconds
+    return CurTime
+}
+
+document.write("Last updated on:")
+document.write(lastModified() + " @ " + GetTime());
+document.write("");
