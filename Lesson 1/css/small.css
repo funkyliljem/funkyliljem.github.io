@@ -1,39 +1,48 @@
 body {
-    margin: 2.5 em;
+    margin: 0 auto;
     max-width: 960 px;
     font-family: "Arial Black", Gadget, sans-serif;
-    line-height: 20 px;
+    line-height: 10 px;
 }
 
-header, footer {
+header {
+    padding: 0.75em;
+}
+
+header, footer{
     width: 650 px;
     height: 60 px;
     margin: 1.5 em;
     padding: 20 px 40 px;
     display: flexbox;
-    float: center;
+    flex-flow: row-wrap; 
+    text-align: center;
     background-color: rgb(35, 195, 216);
+    border-radius: 0 10px 0 0;
+  
 }
   
 nav{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     line-height: 20 px;
-    margin: 1.5 em;
+    margin: 20 px;
 }
 
 h1,
 h4 {
+    font-size: 1.0 em; 
+    margin: 0.15 rem; 
     color:white;
     text-align: center;
 }
 
 footer{
-font-family: "Trebuchet MS", Helvetica, sans-serif;
-    line-height: 20 px;
-    margin: 1.5 em;
+    font-family: "Forum", cursive;
+    line-height: 10 px;
+    margin: 0 auto;
+    font-size: 12px;
 }
 
 .photo {
-    align-items: right;
-    float: right;
+    border-radius: 0 10px 0 0;
 }
