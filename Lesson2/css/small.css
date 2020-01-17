@@ -8,7 +8,7 @@ main {
 	margin: 0 auto;
 }
 h2 {
-	color: #536878;
+	color: white;
 }
 
 main {
@@ -21,7 +21,7 @@ main section {
 	margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0 1rem;
-	background-color: #eee;
+	background-color: rgb(81, 132, 207);
 }
 section:nth-child(2) {
 	display: none;
