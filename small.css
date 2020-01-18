@@ -16,6 +16,10 @@ main {
 	display: grid;
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
+
+}
+a:hover{
+	color: white; 
 }
 
 main section {
