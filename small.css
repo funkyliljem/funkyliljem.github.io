@@ -1,5 +1,5 @@
 body {
-	font-size: 20px;
+	font-size: 25px;
 	font-family: "Varela Round", sans-serif;;
 }
 /* phone or baseline views **************************/
@@ -43,7 +43,7 @@ main section {
 	margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0 1rem;
-	background-color: rgb(87, 207, 201);
+	background-color: rgb(79, 177, 172);
 }
 section:nth-child(2) {
 	display: none;
