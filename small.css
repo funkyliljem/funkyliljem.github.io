@@ -18,6 +18,10 @@ main {
 	font-size: 0.8rem;
 
 }
+
+li {
+	color: white; 
+}
 a:hover{
 	color: white; 
 }
