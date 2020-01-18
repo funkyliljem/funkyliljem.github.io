@@ -10,6 +10,7 @@ main {
 h2, h3 {
 	color: white;
 	font-family: "Cinzel", serif;
+	text-align: center;
 }
 
 main {
@@ -22,15 +23,18 @@ main {
 li {
 	color: white; 
 }
-a:hover{
-	color: white; 
+a:hover {
+	color: purple; 
+}
+a {
+	color: white;
 }
 
 main section {
 	margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0 1rem;
-	background-color: rgb(81, 132, 207);
+	background-color: rgb(87, 207, 201);
 }
 section:nth-child(2) {
 	display: none;
