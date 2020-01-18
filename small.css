@@ -16,7 +16,7 @@ header, footer {
 	padding: 0 1rem;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h5 {
 	color: white;
 	font-family: "Cinzel", serif;
 	text-align: center;
@@ -52,37 +52,5 @@ section:nth-child(2) {
 	box-shadow: 0 0 30px #333;
 }
 
-/* Tablet Views ******************************/
-@media only screen and (min-width: 37.5em) {
-	main {
-		grid-template-columns: 1fr 1fr;
-	}
 
-	section:nth-child(2) {
-		display: block;
-	}
 
-	section:nth-child(3) {
-		grid-column: span 2;
-	}
-
-	main picture {
-		display: block;
-	}
-	main section picture img {
-		width: 100%;
-		height: auto;
-		border: 1px solid #bbb;
-	}
-}
-
-/* Desktop Views ****************************/
-@media only screen and (min-width: 60em) {
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-
-	section:nth-child(3) {
-		grid-column: span 1;
-	}
-}
