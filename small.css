@@ -54,6 +54,9 @@ section:nth-child(2) {
 	box-shadow: 0 0 30px #333;
 	max-width: 100%;
 }
+img{
+	max-width: 100%;
+}
 
 
 
