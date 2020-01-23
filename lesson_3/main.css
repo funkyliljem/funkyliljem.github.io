@@ -1,21 +1,19 @@
 body {
     font-size: 16px;
-    font-family: font-family: 'Bebas Neue', cursive;
- /*<link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Dosis&display=swap" rel="stylesheet">*/
+    font-family: 'Bebas Neue', cursive;
 }
 
 /* phone or baseline views **************************/
 header,
 footer {
 	background-color: #FFFDD1 /* Pale Blue #D8F4FF */ ;
-  
-	display: flex;
+    display: flex;
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
 	padding: 10px;
     font-size: 16px;
-    font-family: font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', cursive;
 }
 
 header,
