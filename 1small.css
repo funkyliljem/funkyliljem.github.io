@@ -1,8 +1,8 @@
 body {
-    margin: 0 auto;
-    max-width: 960 px;
     font-family: "Arial Black", Gadget, sans-serif;
     line-height: 10 px;
+    max-width: 767px;
+	margin: 0 auto;
 }
 
 header {
@@ -12,20 +12,22 @@ header {
 header, footer{
     width: 650 px;
     height: 60 px;
-    margin: 1.5 em;
     padding: 20 px 40 px;
     display: flexbox;
     flex-flow: row-wrap; 
     text-align: center;
     background-color: rgb(35, 195, 216);
     border-radius: 0 10px 0 0;
-  
+    max-width: 767px;
+	margin: 0 auto;
 }
   
 nav{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     line-height: 20 px;
     margin: 20 px;
+    max-width: 767px;
+	margin: 0 auto;
 }
 
 h1,
