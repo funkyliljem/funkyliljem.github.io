@@ -1,26 +1,35 @@
-body {
-    font-size: 16px;
-	font-family: 'Ovo', serif;
+@charset "UTF-8"; /* not necessary */
+/* bluegrey matter   #637f80 light  #536872  #708090  #536878  #36454f dark */
+body, footer {
+	font-size: 16px;
+  font-family: 'Barlow Condensed', sans-serif;
+ /*<link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Dosis&display=swap" rel="stylesheet">
+font-family: 'Girassol', cursive;
+font-family: 'Yeseva One', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Ovo', serif;
+<link href="https://fonts.googleapis.com/css?family=
+  Bungee+Inline|
+  
+  Yeseva+One&display=swap" rel="stylesheet">  
+  */
+ 
 }
 
 /* phone or baseline views **************************/
 header,
 footer {
 	background-color: #FFFDD1 /* Pale Blue #D8F4FF */ ;
-    display: flex;
+  display: flex;
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
 	padding: 10px;
-    font-size: 16px; 
 }
 
 header{
-    font-family: 'Bungee Inline', cursive;
-}
-
-footer{
-    font-family: 'Bebas Neue', cursive;
+   font-family: 'Bangers', cursive;
+   font-size: 40px;
 }
 
 header,
@@ -150,4 +159,3 @@ img{
 		grid-column: span 1;
 	}
 }
-
