@@ -1,25 +1,38 @@
 @charset "UTF-8"; /* not necessary */
 /* bluegrey matter   #637f80 light  #536872  #708090  #536878  #36454f dark */
-body, 
-footer {
-  font-size: 16px;
+p {
+  font-size: 17px;
   font-family: 'Barlow Condensed', sans-serif;
+}
+
+footer {
+	font-size: 17px;
+  font-family: 'Barlow Condensed', sans-serif;
+ /*<link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Dosis&display=swap" rel="stylesheet">
+font-family: 'Girassol', cursive;
+font-family: 'Yeseva One', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Ovo', serif;
+<link href="https://fonts.googleapis.com/css?family=
+  Bungee+Inline|
+  
+  Yeseva+One&display=swap" rel="stylesheet">  
+  */
+ 
 }
 
 /* phone or baseline views **************************/
 header,
 footer {
 	background-color: #FFFDD1 /* Pale Blue #D8F4FF */ ;
-    display: flex;
+  display: flex;
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
 	padding: 10px;
 }
-
 header{
    font-family: 'Bangers', cursive;
-   font-size: 40px;
 }
 
 header,
@@ -30,22 +43,29 @@ footer {
 	margin: 0 auto;
 }
 h1 {
-	font-size: 2rem;
+	font-size: 3rem;
 }
 h2 {
 	color: #536878;
+ font-family: 'Gelasio', serif;
+ text-align: center;
+ font-size: 17px;
 }
 
 nav {
 	background-color: #36454f;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
+  font-family: 'Barlow Condensed',
+  sans-serif;
 }
 nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+  
+
 }
 nav li a {
 	display: block;
@@ -53,7 +73,7 @@ nav li a {
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
-	font-size: 0.95rem;
+	font-size: 1.5rem;
 }
 nav a:hover {
 	background-color: #bbb;
@@ -83,12 +103,10 @@ footer {
 	height: 2rem;
 }
 .logo {
-
 	max-width: 100%;
 }
 img{
 	max-width: 100%;
 }
-
 
 
