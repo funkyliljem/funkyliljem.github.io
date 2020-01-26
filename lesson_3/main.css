@@ -25,7 +25,7 @@ font-family: 'Ovo', serif;
 header,
 footer {
 	background-color: #FFFDD1 /* Pale Blue #D8F4FF */ ;
-  display: flex;
+    display: flex;
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
