@@ -5,7 +5,7 @@ nav {
 }
 .navigation {
 	list-style: none;
-	padding: 0;
+	padding: 0px;
 }
 .navigation li:first-child {
 	display: block;
