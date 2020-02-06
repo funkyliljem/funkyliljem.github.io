@@ -1,0 +1,79 @@
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: #000;
+}
+.navigation {
+	list-style: none;
+	padding: 0px;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #000;
+	background-color: #fff;
+	font-weight: 700;
+}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+.responsive li {
+    display: block;
+
+}
+
+h2{
+    font-family: 'Gelasio', serif;
+    text-align: center;
+}
+
+.content {
+    display: block;
+    margin: 10px auto; 
+    border: 1px dashed black;
+    padding: 15px;
+    background-color: #4442;
+    font-style: italic; 
+    font-family: 'Barlow Condensed', sans-serif;
+  
+}
+  
+header,
+footer {
+	background-color: #FFFDD1;
+    display: flex;
+    flex-flow: column;
+	align-items: center;
+	justify-content: center;
+    padding: 10px;
+}
+  header{
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   font-family: 'Bangers', cursive;
+}
+
+nav {
+	background-color: #36454f;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.25em;
+}
+footer {
+	flex: 0 1 100%;
+    height: 2rem;
+}
