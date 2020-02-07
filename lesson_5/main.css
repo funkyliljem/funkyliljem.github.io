@@ -59,6 +59,7 @@ footer {
 	align-items: center;
 	justify-content: center;
     padding: 10px;
+    
 }
   header{
    display: flex;
@@ -77,6 +78,8 @@ nav {
 footer {
 	flex: 0 1 100%;
     height: 2rem;
+    max-width: 767px;
+    justify-content: center;
 }
 .herodiv{
     margin: 10px auto;
