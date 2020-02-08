@@ -9,4 +9,13 @@
 	article:nth-child(3) {
 		grid-column: span 1;
 	}
+	#forecast-container{
+		display: block; 
+		max-width: 960px;
+	
+	.tree-image{
+		display: block;
+		width: 100%;
+	}
+	
 }
