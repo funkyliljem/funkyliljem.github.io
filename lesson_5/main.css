@@ -173,6 +173,15 @@ a:link{
 
 .contact{
     display: flex;
+    width: 100%;
+    border: 1px solid black; 
+    box-shadow: 0 0 30px lightgrey;
+    background-color: #FFFDD1;
+    flex-direction: column;
+    max-width: 960px;
+    
+}
+.social{
+    display: flex; 
     justify-content: center;
-
 }

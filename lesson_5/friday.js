@@ -1,14 +1,20 @@
-let now = new Date();
-let dayOfWeek = now.getDay();
-let message; 
-    
-    
-    if (dayOfWeek == 0 || dayOfWeek == 1 || dayOfWeek == 2 || dayOfWeek == 3 || dayOfWeek == 4 || dayOfWeek == 6) {
-    message = ("None!");
+ 
+let daynames = [
+  "Monday", 
+  "Tuesday", 
+  "Wednesday", 
+  "Thursday", 
+  "Friday", 
+  "Saturday", 
+  "Sunday"
+];
+
+let d = new Date();
+let dayName = daynames[d.getDay()];
+
+    if (daynames === "Friday") {
+      x.style.display = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion";
+    } else {
+      x.style.display = " ";
     }
-     
-    else if (dayOfWeek == 5) {
-    message = ("Saturday = Preston Pancakes in the Park! 9:00a.m. Saturday at the city park!");
-    
-    }
-    document.getElementById("outputDiv").innerHTML = message;
+    let d = document.getElementById("x.style.display");
