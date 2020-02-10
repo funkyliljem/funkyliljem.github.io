@@ -107,6 +107,8 @@ footer {
 
 #article-container { 
     margin: 0 auto;
+    padding: 5%; 
+    background-color: #FFFDD1;; 
 }
 
 .article{  
@@ -114,15 +116,13 @@ footer {
     width: 100%;
     border: 1px solid black; 
     box-shadow: 0 0 30px lightgrey;
-    background-color: #FFFDD1;
+    background-color: white; 
     flex-direction: column;
-    max-width: 960px;
+    max-width: 960px; 
 }
 
 .picture-article {
     display: block;
-    float: right;
-    justify-content: right;
     position: relative;
 }
 
@@ -171,17 +171,29 @@ a:hover {
     color: orange;
 }
 
+#contact-container{
+    margin: 0 auto;
+    padding: 5%; 
+   
+}
 .contact{
-    display: flex;
+    display: flexbox;
     width: 100%;
     border: 1px solid black; 
     box-shadow: 0 0 30px lightgrey;
-    background-color: #FFFDD1;
-    flex-direction: column;
+    background-color: lightgray;
+    flex-direction: row;
     max-width: 960px;
     
 }
+.preston{
+   display: none;
+}
+
 .social{
     display: flex; 
     justify-content: center;
+}
+.map{
+   justify-content: left;
 }

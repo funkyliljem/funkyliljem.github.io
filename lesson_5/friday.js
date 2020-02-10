@@ -14,7 +14,6 @@ let dayName = daynames[d.getDay()];
 
     if (daynames === "Friday") {
       x.style.display = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion";
-    } else {
-      x.style.display = " ";
     }
-    let d = document.getElementById("x.style.display");
+  document.getElementById("x.style.display");
+  
