@@ -48,21 +48,14 @@ h2,h3,h4,p{
   
 }
   
-header,
-footer {
+header{
 	background-color: #FFFDD1;
     display: flex;
     flex-flow: column;
 	align-items: center;
 	justify-content: center;
     padding: 10px;
-    
-}
-  header{
-   display: flex;
-   align-items: center;
-   justify-content: center; 
-   font-family: 'Bangers', cursive;
+    font-family: 'Bangers', cursive;
 }
 
 nav {
@@ -71,6 +64,15 @@ nav {
 	box-shadow: 0 2px 15px gray;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 1.25em;
+}
+
+footer {
+    display: block;
+	flex: 0 1 100%;
+    height: 2rem;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Bangers', cursive;
 }
 
 .herodiv{
@@ -98,11 +100,6 @@ nav {
 .tree-image{
     width: 100%;
     max-width: 900px;
-}
-
-footer {
-	flex: 0 1 100%;
-    height: 2rem;
 }
 
 
@@ -179,8 +176,6 @@ a:hover {
 #contact-container{
     display: block;
     margin: 0 auto;
-    border: 1px solid black; 
-    background-color: lightgrey;
     padding: 2.5%; 
     
 }
@@ -193,6 +188,7 @@ a:hover {
 }
 
 .social{
-   text-align: center;
-}
+   display: flex;
+   width: 50%;
+  }
 
