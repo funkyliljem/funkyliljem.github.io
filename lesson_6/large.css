@@ -16,5 +16,12 @@
 	.tree-image{
 		display: block;
 		width: 100%;
-	}	
+    }	
+    #contact-container{
+        display: block;
+        max-width: 960px;
+    }
+    footer{
+        max-width: 960px;
+    }
 }

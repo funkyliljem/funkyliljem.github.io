@@ -153,12 +153,8 @@ footer {
     padding: 2.5%; 
     width: 100%;
     max-width: 960px; 
-    background-color:  #FFFDD1;;
+    background-color:  #FFFDD1;
 }
-.clearfix{  
-  
-}
-
 .picture-article {
     float: right; 
 }
@@ -176,11 +172,7 @@ a:hover {
 #contact-container{
     display: block;
     margin: 0 auto;
-    padding: 2.5%; 
-    
-}
-.preston-map{
-   
+    padding: 2.5%;   
 }
 
 .preston-map img{

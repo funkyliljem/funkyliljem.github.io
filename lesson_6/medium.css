@@ -17,11 +17,15 @@
 	}
 	#forecast-container{
 		display: block; 
-	}
+    }
+    
+#contact-container{
+    display: block;
+}
 
 .contact-info{
-	width: 50%;
-	float: left; 
+    width: 50%;
+    float: right; 
 	padding: 5%;
 }
 .preston-map img{
