@@ -105,26 +105,6 @@ footer {
     height: 2rem;
 }
 
-#article-container { 
-    margin: 0 auto;
-    padding: 5%; 
-    background-color: #FFFDD1;; 
-}
-
-.article{  
-    display: flex;
-    width: 100%;
-    border: 1px solid black; 
-    box-shadow: 0 0 30px lightgrey;
-    background-color: white; 
-    flex-direction: column;
-    max-width: 960px; 
-}
-
-.picture-article {
-    display: block;
-    position: relative;
-}
 
 #forecast-container{
     display: none; 
@@ -167,33 +147,52 @@ footer {
 	display: block;
 	padding: 0 5px 5px;
 }
+
+#article-container { 
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid black; 
+    box-shadow: 0 0 30px lightgrey;
+    padding: 2.5%; 
+    width: 100%;
+    max-width: 960px; 
+    background-color:  #FFFDD1;;
+}
+.clearfix{  
+  
+}
+
+.picture-article {
+    float: right; 
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 a:hover {
-    color: orange;
+    background-color: 0 1 1 orange;
 }
 
 #contact-container{
+    display: block;
     margin: 0 auto;
-    padding: 5%; 
-   
-}
-.contact{
-    display: flexbox;
-    width: 100%;
     border: 1px solid black; 
-    box-shadow: 0 0 30px lightgrey;
-    background-color: lightgray;
-    flex-direction: row;
-    max-width: 960px;
+    background-color: lightgrey;
+    padding: 2.5%; 
     
 }
-.preston{
-   display: none;
+.preston-map{
+   
+}
+
+.preston-map img{
+    display: none; 
 }
 
 .social{
-    display: flex; 
-    justify-content: center;
+   text-align: center;
 }
-.map{
-   justify-content: left;
-}
+

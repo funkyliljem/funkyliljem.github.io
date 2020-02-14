@@ -19,7 +19,23 @@
 		display: block; 
 	}
 
+.contact-info{
+	width: 50%;
+	float: left; 
+	padding: 5%;
 }
-.preston {
+.preston-map img{
 	display: block; 
+	width: 30%; 
+	float: left;
+	height: 100%; 
+	padding: 5%;
+}
+
+.picture-article {
+    display: block; 
+}
+.social{
+	width: 50%;
+}
 }
