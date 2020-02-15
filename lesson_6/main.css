@@ -88,7 +88,7 @@ footer {
    
 }
 .weathersummary{
-    position: absolute; 
+    display: absolute;
     top: 25px;
     left: 50px; 
     background-color: #FFFDD1;
@@ -181,6 +181,5 @@ a:hover {
 
 .social{
     display: flex;
-    width: 75%
 }
 
