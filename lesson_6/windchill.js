@@ -1,2 +1,2 @@
 const windChill getElementById().textCon
-const 
+const temp getElementById().textCon
