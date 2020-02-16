@@ -1,44 +1,12 @@
 const temp = parseFloat(document.getElementById('temp').textContent);
 const speed = parseFloat(document.getElementById('speed').textContent);
 
-document.getElementById('windchill').textContent = math.round(35.74+0.6215*temp-(35.75*(speed**0.16))+0.4275*(temp*(speed**0.16));
+const windChill = math.round(35.74+0.6215*temp-(35.75*(speed**0.16))+0.4275*(temp*(speed**0.16));
 
-if (temp <= 50 && speed >= 3) {
-    message = "The wind chill is" + windChill;
+if (temp <= 50 && speed > 3) {
+    message = windchill; 
 }
 else {
-    message = "N/A the windchill does not apply";
-
-
-
-
-
-
-/*function checkHeight() {
-    let driver = parseFloat(document.getElementById('driverBox').value);
-    let passenger = parseFloat(document.getElementById('passengerBox').value);
-
-    let message;
-    if (driver >= 54 || (temp >= 50 && windspeed >= 3)) {
-        message = "The wind chill is" + ;
-    }
-    else {
-        message = 'N/A the windchill does not apply';
-    }
-
-    document.getElementById('outputDiv').innerHTML = message;
+    message = "N/A";
 }
-
-function doInputOutput(){
-    let tempF = parseFloat(document.getElementById('inputOne').value);
-    let speed = parseFloat(document.getElementById('inputTwo').value);
-    let f = windChill(tempF,speed);
-    document.getElementById('outputDiv').innerHTML = f;
-    }
-    
-    //Calculations on the windchill without user input or output
-    function windChill(tempF,speed){
-    let windChill=35.74+0.6215*tempF-(35.75*(speed**0.16))+0.4275*(tempF*(speed**0.16));
-    return windChill; 
-    }
-*/
+document.getElementById('windchill').innerHTML =`${windChill}`;

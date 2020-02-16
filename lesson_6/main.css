@@ -88,7 +88,7 @@ footer {
    
 }
 .weathersummary{
-    display: absolute;
+    position: absolute; 
     top: 25px;
     left: 50px; 
     background-color: #FFFDD1;
@@ -97,11 +97,6 @@ footer {
     box-shadow: 0 0 30px #111;
     opacity: .8;
 }
-.tree-image{
-    width: 100%;
-    max-width: 900px;
-}
-
 
 #forecast-container{
     display: none; 
