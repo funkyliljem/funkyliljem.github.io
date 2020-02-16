@@ -10,6 +10,6 @@ if (temp <= 50 && speed > 3) {
 else {
     message = "N/A";
     }
-    document.getElementById('windchill').innerHTML =`${windChill}`, message;
+    document.getElementById('windchill').innerHTML = message;
 
 
