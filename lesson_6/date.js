@@ -24,7 +24,7 @@ let months = [
     "December"
 ];
 
-let d = new Date();
+let n = new Date();
 let dayName = daynames[d.getDay()];
 let monthName = months[d.getMonth()];
 let fulldate = daynames[d.getDay()] + ", " + months[d.getMonth()] + " " + d.getDate() + ", " +
