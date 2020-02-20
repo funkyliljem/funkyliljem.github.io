@@ -13,9 +13,11 @@ main{
     align-items: center; 
 }
 
-img{
-    border: 1px solid #333;
-    padding: 2px; 
-    filter: blur(1em);
-    transition: filter 0.5s; 
-}
+article img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+article img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
