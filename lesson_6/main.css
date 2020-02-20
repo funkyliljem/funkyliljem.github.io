@@ -77,7 +77,7 @@ footer {
 
 .herodiv{
     margin: 10px auto;
-}
+     
 
 .hero-ph{
     display: flex;
@@ -161,7 +161,8 @@ footer {
   }
 
 a:hover {
-    background-color: 0 1 1 orange;
+    background-color: #ffa600;
+
 }
 
 #contact-container{
@@ -176,5 +177,8 @@ a:hover {
 
 .social{
     display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 0 3em;
 }
 
