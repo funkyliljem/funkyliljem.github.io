@@ -20,6 +20,6 @@ img [data-src] {
 img ::placeholder{
     border: 1px solid #333;
     padding: 2px; 
-    filter: blur (1em);
+    filter: blur(1em);
     transition: filter 0.5s;
   }
