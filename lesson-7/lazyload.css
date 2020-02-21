@@ -13,11 +13,11 @@ main {
     align-items: center; 
 }
 
-data-src {
-    filter: blur(0em);
+img [data-src] {
+    filter: blur(0.2em);
 }
   
-img-src{
+img{
     border: 1px solid #333;
     padding: 2px; 
     filter: blur(1em);
