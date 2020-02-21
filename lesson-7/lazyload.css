@@ -12,8 +12,13 @@ main{
     flex-direction: column; 
     align-items: center; 
 }
-  
+
 img {
+  border: 1px solid #333;
+  padding: 2px; 
+}
+  
+img::placeholder {
     border: 1px solid #333;
     padding: 2px; 
     filter: blur(1em);
