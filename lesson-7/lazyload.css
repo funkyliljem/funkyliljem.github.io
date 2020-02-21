@@ -14,10 +14,10 @@ main{
 }
 
 img [data-src] {
-    filter: blur(0.2em);
+    filter: blur(0.8em);
   }
   
 img {
-    filter: blur(0em);
+    filter: blur(0.8em);
     transition: filter 0.5s;
   }
