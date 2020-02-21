@@ -14,7 +14,7 @@ main{
 }
 
 img [data-src] {
-  filter: blur(0.8em);
+  filter: blur(0em);
 }
   
 img {
