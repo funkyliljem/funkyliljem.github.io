@@ -13,8 +13,8 @@ main{
     align-items: center; 
 }
 
-img [data-src] {
-  filter: blur(0em);
+img data-src {
+    filter: blur(0em);
 }
   
 img {
