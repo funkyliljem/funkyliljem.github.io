@@ -17,7 +17,7 @@ img [data-src] {
   filter: blur(0.8em);
 }
   
-img::placeholder {
+img {
     border: 1px solid #333;
     padding: 2px; 
     filter: blur(1em);
