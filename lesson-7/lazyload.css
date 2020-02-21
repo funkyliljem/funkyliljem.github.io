@@ -13,11 +13,11 @@ main {
     align-items: center; 
 }
 
-img [data-src] {
+[data-src] {
     filter: blur(0.2em);
 }
   
-img ::placeholder{
+img {
     border: 1px solid #333;
     padding: 2px; 
     filter: blur(1em);
