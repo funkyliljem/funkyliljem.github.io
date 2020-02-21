@@ -17,8 +17,9 @@ data-src {
     filter: blur(0em);
 }
   
-img {
+img-src{
     border: 1px solid #333;
     padding: 2px; 
+    filter: blur(1em);
     transition: filter 0.5s;
   }
