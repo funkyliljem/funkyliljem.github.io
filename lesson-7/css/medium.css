@@ -11,6 +11,9 @@
 		color: white;
 		text-align: center;
 	}
+	.grid-container {
+		grid-template-columns: 1fr 1fr;
+	}
 	
 	.navigation li:first-child {
 		display: none;
