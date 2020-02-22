@@ -61,6 +61,16 @@ nav {
    align-items: center;
    justify-content: center;
 }
+  
+header{
+	background-color: #FFFDD1;
+    display: flex;
+    flex-flow: column;
+	align-items: center;
+	justify-content: center;
+    padding: 10px;
+    font-family: 'Bangers', cursive;
+}
 
 body {
     font-family: 'Bangers';
