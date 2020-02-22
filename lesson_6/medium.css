@@ -36,21 +36,8 @@
 }
 
 .picture-article {
-    display: block; 
-}
-.weathersummary{
-    position: absolute; 
-    top: 25px;
-    left: 50px; 
-    background-color: #FFFDD1;
-    border: 1px solid white; 
-    padding: .5rem;
-    box-shadow: 0 0 30px #111;
-	opacity: .8;
-}
-.herodiv{
-	margin: auto;
-	position: relative;
-	box-shadow: 0 0 30px #111;
+	display: block; 
+
+
 }   
 }
