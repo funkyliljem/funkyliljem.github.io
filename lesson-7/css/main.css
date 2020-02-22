@@ -1,28 +1,89 @@
-@import url('https://fonts.googleapis.com/css?family=Bangers|Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bangers|Barlow+Condensed|Gelasio+Serif&display=swap');
+
+.logo{
+    width: 125px;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
+}
+
+.headings {
+    text-align: center;
+    justify-content: center;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: #000;
+}
+
+nav {
+	background-color: #36454f;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.25em;
+}
+.navigation {
+	list-style: none;
+	padding: 0px;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #000;
+	background-color: #fff;
+	font-weight: 700;
+}
+.navigation a:active{
+    background-color: #ffc558;
+}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+.responsive li {
+    display: block;
+}
+.gallery-head {
+   align-items: center;
+   justify-content: center;
+}
 
 body {
     font-family: 'Bangers';
 }
 
+h2,h3,h4,p{
+    font-family: 'Gelasio', serif;
+    text-align: center;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 600px)); 
-    background-color: #2196F3;
-    grid-gap: 30px;
+    grid-gap: 25px;
     padding: 10px;
     justify-content: center;
 }
 
 picture {
-    background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 10px;
     font-size: 20px;
     text-align: center;
-}
-
-h1{
-    text-align: center;
+    padding: 10px;
 }
 
 [data-src] {
@@ -35,6 +96,15 @@ img src {
     filter: blur(1em);
     transition: filter 0.5s;
   }
+
+  footer {
+    display: block;
+	flex: 0 1 100%;
+    height: 2rem;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Bangers', cursive;
+}
   
   
  

@@ -9,61 +9,94 @@
     <meta name="description" content="Lazy Loading of Images">
     <link href="https://fonts.googleapis.com/css?family=Bangers|Barlow+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/medium.css"/>
+    <link rel="stylesheet" href="css/large.css"/>
 
 </head>
 
 <body>
     <header>
-    <picture>
-        <img src="https://byui.instructure.com/users/183551/files/28580656/preview" alt="Sky Check Now"
-            width="125px" height="125px">
+    <picture class="logo">
+        <img src="https://byui.instructure.com/users/183551/files/28580656/preview" alt="Sky Check Now">
     </picture>
     <section class="headings">
         <h1>Sky Check Now</h1>
-        <div>Where we check the skies for you</div>
+        <h3>Where we check the skies for you</h3>
     </section>
 </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham">&#9776; Menu</a></li>
+            <li><a href="home.html"> Home</a></li>
+            <li><a href="preston.html"> Preston</a></li>
+            <li><a href="soda_springs.html"> Soda Springs</a></li>
+            <li><a href="fish_haven.html"> Fish Haven</a></li>
+            <li><a href="storm_center.html"> Storm Center</a></li>
+            <li><a href="gallery-7.html"> Gallery</a></li>
+        </ul>
+    </nav>
+
     <main>
+        <div class="gallery-head">
         <h1>Photo Gallery</h1>
+        </div>
         <div class="grid-container">
-            <picture>
-                <img class="grid-item" src="placeholder.png" data-src="photos/blue.jpg" alt="blue sky">
+            <picture class="grid-item">
+                <img src="placeholder.png" data-src="images/blue.jpg" alt="blue sky">
                 <figcaption>Clear Blue Sky</figcaption>
             </picture>
-            <picture>
-                <img src="placeholder.png" data-src="photos/cloudy.jpeg" alt="cloudy">
+            <picture class="grid-item">
+                <img src="placeholder.png" data-src="images/cloudy.jpeg" alt="cloudy">
                 <figcaption>Cloudy</figcaption>
             </picture>
-            <picture>
-                <img src="placeholder.png" data-src="photos/rain.jpeg" alt="rain">
+            <picture class="grid-item">
+                <img src="placeholder.png" data-src="images/foggy.jpg" alt="foggy">
                 <figcaption>Rainy</figcaption>
             </picture>
-            <picture>
-                <img src="placeholder.png" data-src="photos/showers.jpeg" alt="showers">
+            <picture class="grid-item">
+                <img src="placeholder.png" data-src="images/rain.jpeg" alt="rain">
+                <figcaption>Rainy</figcaption>
+            </picture>
+            <picture class="grid-item">
+                <img src="placeholder.png" data-src="images/showers.jpeg" alt="showers">
                 <figcaption>Heavy Showers</figcaption>
             </picture>
-            <picture>
-                <img src="placeholder.png" data-src="photos/snow.jpeg" alt="snow">
+            <picture class="grid-item">
+                <img src="placeholder.png" data-src="images/snow.jpeg" alt="snow">
                 <figcaption>Snow</figcaption>
             </picture>
-            <picture>
-                <img src="placeholder.png" data-src="photos/sun.jpg" alt="sun">
+            <picture class="grid-item">
+                <img src="placeholder.png" data-src="images/sun.jpg" alt="sun">
                 <figcaption>Sunny Day</figcaption>
             </picture>
-            <picture>
-                <img src="placeholder.png" data-src="photos/thunderstorms.jpeg" alt="thunderstorms">
+            <picture class="grid-item">
+                <img src="placeholder.png" data-src="images/thunderstorms.jpeg" alt="thunderstorms">
                 <figcaption>Thunderstorms</figcaption>
             </picture>
-            <picture>
-                <img src="placeholder.png" data-src="photos/tornado.jpg" alt="tornado">
-                <figcaption>Tornado</figcaption>
+            <picture class="grid-item">
+                <img src="placeholder.png" data-src="images/windy.jpg" alt="windy">
+                <figcaption>Thunderstorms</figcaption>
             </picture>
-            <picture>
-                <img src="placeholder.png" data-src="photos/windy.jpg" alt="windy">
-                <figcaption>Windy</figcaption>
-            </picture>
+
     </main>
-    <script src="js/imagehandling.js" defer></script>
+    <footer>
+        <h4>&copy;
+            <!--Current Day, Month, Date, Year--> <span id="currentdate"></span>
+            <script src="js/date.js"></script> | Jewel Victorino |<a href="https://www.byui.edu/online">BYUI
+                Online
+                Learn</a>
+            </h4>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    WebFont.load({
+        google: {
+            families: ["Bangers", "Barlow Condensed", "Gelasio"]
+        }
+    });
+</script>
+<script src="js/imagehandling.js" defer></script>
+<script src="js/toggle.js"></script>
 </body>
 
 </html>

@@ -150,9 +150,6 @@ footer {
     max-width: 960px; 
     background-color:  #FFFDD1;
 }
-.picture-article {
-    width: 100%; 
-}
 
 .clearfix::after {
     content: "";

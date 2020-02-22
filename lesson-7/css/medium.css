@@ -1,5 +1,19 @@
 /* Media Query for medium + screens */
-@media only screen and (min-width: 32.5em) {
-    .norm:hover {box-shadow: 0 0 50px #333;}
-}
+@media only screen and (min-width: 600px) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* needed because of state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: white;
+		text-align: center;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+	}
 
+}
