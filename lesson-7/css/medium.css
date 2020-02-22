@@ -15,7 +15,6 @@
 	.navigation li:first-child {
 		display: none;
 	}
-	.grid-item:hover {
-		display: none; 
+
 }
 }
