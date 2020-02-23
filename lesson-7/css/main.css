@@ -7,11 +7,6 @@
     align-items: center;
 }
 
-.headings {
-    text-align: center;
-    justify-content: center;
-}
-
 nav {
 	margin: 0 auto;
 	max-width: 100%;
@@ -20,6 +15,10 @@ nav {
 	box-shadow: 0 2px 15px gray;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 1.25em;
+}
+
+figcaption{
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 .navigation {
@@ -74,8 +73,9 @@ header{
     font-family: 'Bangers', cursive;
 }
 
-body {
+h1,body {
     font-family: 'Bangers';
+    text-align: center;
 }
 
 h2,h3,h4,p{
