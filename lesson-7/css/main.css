@@ -15,26 +15,26 @@
 nav {
 	margin: 0 auto;
 	max-width: 100%;
-	background-color: #000;
-}
-
-nav {
 	background-color: #36454f;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 1.25em;
 }
+
 .navigation {
 	list-style: none;
 	padding: 0px;
 }
+
 .navigation li:first-child {
 	display: block;
 }
+
 .navigation li {
 	display: none;
 }
+
 .navigation a {
 	display: block;
 	color: #fff;
@@ -42,11 +42,13 @@ nav {
 	text-align: center;
 	text-decoration: none;
 }
+
 .navigation a:hover {
 	color: #000;
 	background-color: #fff;
 	font-weight: 700;
 }
+
 .navigation a:active{
     background-color: #ffc558;
 }
