@@ -13,11 +13,11 @@
 		color: white;
 		text-align: center;
 	}
-
-	section:nth-child(2) {
-		grid-column: span 2;
+	 
+	.grid-container{
+		grid-template-columns: 1fr 1fr;
+		clear: both;
 	}
-
 	.navigation li:first-child {
 		display: none;
 	}
