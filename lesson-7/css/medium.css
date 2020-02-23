@@ -1,5 +1,5 @@
 /* Media Query for medium + screens */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
 	.navigation {
 		display: flex;
 	}
