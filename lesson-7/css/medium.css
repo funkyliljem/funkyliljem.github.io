@@ -1,5 +1,5 @@
 /* Media Query for medium + screens */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
 	.navigation {
 		display: flex;
 	}
@@ -14,9 +14,18 @@
 		text-align: center;
 	}
 
-	.grid-container {
-		grid-template-columns: repeat(2,1fr);
+	main {
+		grid-template-columns: 1fr 1fr;
 	}
+
+	section:nth-child(2) {
+		display: block;
+	}
+
+	section:nth-child(3) {
+		grid-column: span 2;
+	}
+
 
 	.navigation li:first-child {
 		display: none;
