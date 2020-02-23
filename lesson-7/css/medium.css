@@ -1,18 +1,21 @@
 /* Media Query for medium + screens */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 	.navigation {
 		display: flex;
 	}
+
 	.navigation li {
 		display: block; /* needed because of state in small view */
 		flex: 1 1 100%;
 	}
+
 	.navigation li a {
 		color: white;
 		text-align: center;
 	}
+
 	.grid-container {
-		grid-template-columns: 1fr;
+		grid-template-columns: 1fr 1fr;
 	}
 
 	.navigation li:first-child {
