@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 table {
     width:100%;
-    font-family: "Ubuntu",;
+    font-family: "Ubuntu";
   }
   table, th, td {
     border: 1px solid black;
@@ -11,13 +11,33 @@ table {
     padding: 15px;
     text-align: left;
   }
-  table#t01 tr:nth-child(even) {
-    background-color: #eee;
+  tbody#t01 tr:nth-child(even) {
+    background-color: #e7ffed;
+    color: black;
   }
-  table#t01 tr:nth-child(odd) {
-   background-color: #fff;
+  tbody#t01 tr:nth-child(odd) {
+   background-color: #e7f0ed;
+   color: black;
   }
   table#t01 th {
-    background-color: black;
+    background-color:#628ca6;
     color: white;
+    font: bold;
   }
+  thead {
+    background-color: #7fb9c2;
+    color: black;
+    text-align: center;
+  }
+
+  tfoot{
+    background-color: #7fb9c2;
+    color: black;
+    align-items: center;
+    font-size: 12px;
+  }
+
+#special{
+    background-color:#628ca6;
+    color:white;
+}
