@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 table {
     width:100%;
+    font-family: "Ubuntu",;
   }
   table, th, td {
     border: 1px solid black;
