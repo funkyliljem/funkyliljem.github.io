@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 table {
     font-family: "Ubuntu";
-    box-shadow: 10px 10px 10px grey;
+    box-shadow: 10px 10px 10px #628ca6;
   }
   table, th, td {
     border: 1px solid lightgray;
     border-collapse: collapse;
-    
   }
   th, td {
-    padding: 10px;
+    padding: 9px;
     text-align: center;
   }
   tbody tr:nth-child(odd) {
@@ -25,10 +24,11 @@ table {
     color: white;
     font: bold;
   }
+
   thead {
     background-color: #7fb9c2;
     color: black;
-    font-size: 25px;
+    font-size: 23px;
   }
 
   tfoot{
