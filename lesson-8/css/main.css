@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 table {
-    width:100%;
     font-family: "Ubuntu";
+    box-shadow: 10px 10px 10px grey;
   }
   table, th, td {
-    border: 1px solid black;
+    border: 1px solid lightgray;
     border-collapse: collapse;
+    
   }
   th, td {
-    padding: 15px;
-    text-align: left;
+    padding: 10px;
+    text-align: center;
   }
-  tbody#t01 tr:nth-child(even) {
+  tbody tr:nth-child(odd) {
     background-color: #e7ffed;
     color: black;
   }
-  tbody#t01 tr:nth-child(odd) {
+  tbody {
    background-color: #e7f0ed;
    color: black;
   }
-  table#t01 th {
+  tbody tr:nth-child(1) {
     background-color:#628ca6;
     color: white;
     font: bold;
@@ -27,13 +28,13 @@ table {
   thead {
     background-color: #7fb9c2;
     color: black;
-    text-align: center;
+    font-size: 25px;
   }
 
   tfoot{
     background-color: #7fb9c2;
     color: black;
-    align-items: center;
+    text-align: center;
     font-size: 12px;
   }
 
