@@ -9,9 +9,9 @@
     <meta name="description" content="Weather Report Site on Preston Idaho">
     <link rel="stylesheet" href="normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Bangers|Barlow+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="medium.css">
-    <link rel="stylesheet" href="large.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="">
     <link rel="shortcut icon" href="favicon.ico">
 
 </head>
@@ -27,8 +27,7 @@
         <section class="headings">
             <h1>Sky Check Now</h1>
             <div>Where we check the skies for you</div>
-        </section>
-        <link href="https://fonts.googleapis.com/css?family=Bangers|Barlow+Condensed&display=swap" rel="stylesheet">
+        </section> 
     </header>
 
     <nav>
@@ -38,90 +37,27 @@
             <li><a href="preston.html"> Preston</a></li>
             <li><a href="soda_springs.html"> Soda Springs</a></li>
             <li><a href="fish_haven.html"> Fish Haven</a></li>
-            <li><a href="storm_center.html"> Storm Center</a></li>
+            <li><a href="stormcenter.html"> Storm Center</a></li>
             <li><a href="gallery.html"> Gallery</a></li>
-
         </ul>
     </nav>
 
     <main>
+        <div class="form-container">
+            <form method="get">
+                <fieldset>
+                    <legend>Customer Information</legend>
+                    <label class="top">Full Name* <input type="text" name="fullName" required></label>
+                    <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com" ></label>
+                    <label class="top">Phone Number* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                    <label class="top">Zip Code* <input type="text" name="lname" required></label>
+                </fieldset>
         
-        <h2>Preston Idaho</h2>
-        <div class="herodiv">
-            <div class="hero-ph">
-                <img class="tree-image" src="trees.jpg" alt="image of trees">
-                <section class="weathersummary">
-                    <h3>Weather Summary</h3>
-                    <hr style="border: 0.5px solid black;">
-                    <p> Currently: Sunny</p>
-                    <p> High: 76 F</p>
-                    <p> WindChill: None</p>
-                    <p> Humidity: 25%</p>
-                </section>
-            </div>
         </div>
+            </form>
 
-        <br><br>
-        <div id="forecast-container" class="content">
-            <h2>Weekly Weather Report</h2>
-            <div class="flex">
-                <div class="col">
-                    <span class="label">Monday</span>
-                    <img src="Android-Weather.png" alt="weather" width="100px" height="100px">
-                    <span class="data">Partly Cloudy</span>
-                </div>
-                <div class="col">
-                    <span class="label">Tuesday</span>
-                    <img src="Android-Weather.png" alt="weather" width="100px" height="100px">
-                    <span class="data">Partly Cloudy</span>
-                </div>
-                <div class="col">
-                    <span class="label">Wednesday</span>
-                    <img src="Android-Weather.png" alt="weather" width="100px" height="100px">
-                    <span class="data">Partly Cloudy</span>
-                </div>
-                <div class="col">
-                    <span class="label">Thursday</span>
-                    <img src="Android-Weather.png" alt="weather" width="100px" height="100px">
-                    <span class="data">Partly Cloudy</span>
-                </div>
-                <div class="col">
-                    <span class="label">Friday</span>
-                    <img src="Android-Weather.png" alt="weather" width="100px" height="100px">
-                    <span class="data">Partly Cloudy</span>
-                </div>
-                <div class="col">
-                    <span class="label">Saturday</span>
-                    <img src="Android-Weather.png" alt="weather" width="100px" height="100px">
-                    <span class="data">Partly Cloudy</span>
-                </div>
-            </div>
-        </div>
-
-        <br><br>
-           
-        <div id="article-container">
-            <div id="clearfix"> 
-            <p style="clear:right"> 
-            <img class="picture-article" src="snow.jpeg" width="200px" height="200px" alt="weather icon">
-            <h2>**Snow Fall Expected**</h2>
-            <h4>By Preston Citizen News</h4>
-            The Idaho Transportation Department (ITD) and the National Weather Service (NWS) are advising the 
-            traveling public to use caution while in transit due to an extended severe winter weather advisory 
-            beginning this evening Wed., Feb. 5. 
-            Drivers can expect high winds, blowing and drifting snow, low visibilty and heavy snow in higher 
-            elevations. Up to five inches of snow in the valley and nine inches in the mountains is expected 
-            over the next 24 hours, in Franklin County, the eastern part of Oneida County and north throughout 
-            the Snake River Plain. ITD advises drivers to expect intermittent road closures as forecasted increases of wind speed 
-            and precipitation may require a halt in snow-clearing 
-            operations if conditions become too dangerous for plows to operate.
-            "We are expecting some substantial winds and snowfall," says ITD District 
-            6 Operations Manager Wade Allen. "Starting tomorrow, our crews will be working around the 
-            clock to keep roads open, but they expect to close 
-            roads as weather proceeds and it is deemed unsafe for them to plow."
-        </div></div>
-
-        <br><br>
+        
+        
 
         <div id="contact-container">
             <div class="preston-map">
