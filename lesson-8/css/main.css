@@ -93,6 +93,8 @@ form legend{
     color: #445ba9;
     margin: 0 1rem;
     padding: 0 .5rem;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 form label.top, form div{
@@ -125,7 +127,6 @@ form label.sbs{
 form label.submitBtn {
     border: none;
     background-color: #9c2c13;
-    color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
