@@ -9,9 +9,9 @@
     <meta name="description" content="Weather Report Site on Preston Idaho">
     <link rel="stylesheet" href="normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Bangers|Barlow+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
     <link rel="shortcut icon" href="favicon.ico">
 
 </head>
@@ -19,80 +19,104 @@
 <body>
     <header>
         <span id="friday"></span>
-        <script src="friday.js"></script>
+        <script src="js/friday.js"></script>
         <picture>
             <img src="https://byui.instructure.com/users/183551/files/28580656/preview" alt="Sky Check Now"
                 width="125px" height="125px">
-        </picture>
+        </picture> <br>
         <section class="headings">
-            <h1>Sky Check Now</h1>
+            <h1>Sky Check Now</h1> 
+            <br>
             <div>Where we check the skies for you</div>
-        </section> 
+        </section>
     </header>
 
     <nav>
         <ul class="navigation">
             <li><a class="ham">&#9776; Menu</a></li>
-            <li><a href="home.html"> Home</a></li>
+            <li><a href="https://funkyliljem.github.io/lesson_5/preston_5.html"> Home</a></li>
             <li><a href="preston.html"> Preston</a></li>
             <li><a href="soda_springs.html"> Soda Springs</a></li>
             <li><a href="fish_haven.html"> Fish Haven</a></li>
             <li><a href="stormcenter.html"> Storm Center</a></li>
-            <li><a href="gallery.html"> Gallery</a></li>
+            <li><a href="https://funkyliljem.github.io/lesson-7/gallery-7.html"> Gallery</a></li>
         </ul>
     </nav>
 
     <main>
-        <div class="form-container">
-            <form method="get">
-                <fieldset>
-                    <legend>Customer Information</legend>
-                    <label class="top">Full Name* <input type="text" name="fullName" required></label>
-                    <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com" ></label>
-                    <label class="top">Phone Number* <input type="tel" name="phone" placeholder="1235551234" required></label>
-                    <label class="top">Zip Code* <input type="text" name="lname" required></label>
-                </fieldset>
-        
-        </div>
-            </form>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label class="top">Full Name* <input type="text" name="fullName" required></label> 
+                <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label> 
+                <label class="top">Phone Number* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Zip Code* <input type="text" name="lname" required></label>
+            </fieldset>
+              
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="top">Storm Date<input type="date" name="stormDate"></label>
+                
+                <div>
+                <label class="top">Storm Types</label>
+                    <label class="sbs"><input type="checkbox" name="flood" value="yes">Flash Flood</label>
+                    <label class="sbs"><input type="checkbox" name="hail" value="yes">Hail</label>
+                    <label class="sbs"><input type="checkbox" name="hurricane" value="yes">Hurricane</label>
+                    <label class="sbs"><input type="checkbox" name="thunderstorm" value="yes">Thunderstorm</label>
+                    <label class="sbs"><input type="checkbox" name="tornado" value="yes">Tornado</label>
+                </div>
+                <div>
+                <label class="flexly" for="rating">Rating &nbsp;&nbsp;&nbsp;
+                    <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">5</span>
+                </label>
+                        <datalist id="tickmarks">
+                            <option value="0"></option>
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                            <option value="6"></option>
+                            <option value="7"></option>
+                            <option value="8"></option>
+                            <option value="9"></option>
+                            <option value="10"></option>
+                </div>
+                <div>
+                <label class="top">Storm Region
+                        <select name="region">
+                            <option value="">Select Region &#9662;
+                            <option value="preston">Preston
+                            <option value="soda_springs">Soda Springs
+                            <option value="fish_haven">Fish Haven
+                        </select>
+                </label>
+                </div>
+                <div>
+                <label class="top">User In-Danger Level</label>
+                    <label class="sbs"><input type="radio" name="user in-danger level" value="yes">Yes</label>
+                    <label class="sbs"><input type="radio" name="user in-danger level" value="maybe">Maybe</label>
+                    <label class="sbs"><input type="radio" name="user in-danger level" value="no">No</label>  
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend class="top">Additional Information</legend>
+                   <label class="top">Comments<input type="search"></label>
+                   <input type="submit" value="Submit Your Form" class="submitBtn">
+            </fieldset>
 
-        
-        
 
-        <div id="contact-container">
-            <div class="preston-map">
-            <img src="preston-map.JPG" alt="preston-google"> 
-            <div class="contact-info"> 
-            <h3>Contact Information</h3>
-            <p>Address: 1234 Main Street Preston, ID 12345 </p>
-            <p> Telephone: 808-124-4565 </p>
-
-            <div class="social">
-                <!--Social Media Icons-->
-
-                <a href="https://www.facebook.com/">
-                    <img src="https://cdn.glitch.com/c852da23-70d9-4da6-83eb-4823e3bbe587%2Ffacebook.png?1518559207353"
-                        alt="Facebook icon"></a>
-
-                <a href="https://www.instagram.com/">
-                    <img src="https://cdn.glitch.com/546809c6-da8f-4df8-a638-5d9c656ea1a9%2Finstagram.png?v=1574544010728"
-                        alt="Instagram icon"></a>
-
-                <a href="https://www.youtube.com/">
-                    <img src="https://cdn.glitch.com/546809c6-da8f-4df8-a638-5d9c656ea1a9%2Fyoutube.png?v=1574544014313"
-                        alt="YouTube icon"></a>  
-                    
-            </div></div></div>
+        </form>
     </main>
-    <footer> 
-          <br>
-            <h4>&copy; <!--Current Day, Month, Date, Year--> <span id="currentdate"></span>
-            <script src="date.js"></script> | Jewel Victorino |<a href="https://www.byui.edu/online">BYUI
-                Online
-                Learn</a>
-        </h4>
-    </footer>
-    <script src="toggle.js"></script>
+    <footer> <h4>&copy;   
+            <!--Current Day, Month, Date, Year--> <span id="currentdate"></span>
+            <script src="js/date.js"></script> | Jewel Victorino |<a href="https://www.byui.edu/online"> BYUI Online Learn</a>
+        </h4>  
+            </footer>
+    <script src="js/toggle.js"></script>
+    <script src="js/rating.js"></script>
 </body>
 
 </html>
