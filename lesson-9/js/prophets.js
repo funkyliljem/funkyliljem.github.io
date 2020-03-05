@@ -22,7 +22,7 @@ birthdate.textContent = "Date of Birth:" + prophets[i].birthdate;
 birthplace.textContent = "Birth Place:" + prophets[i].birthplace;
 
 image.setAttribute('src', prophets[i].imageurl);
-image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname);
+image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + '-' + prophets[i].order);
 
 card.appendChild(h2);
 card.appendChild(birthdate);
