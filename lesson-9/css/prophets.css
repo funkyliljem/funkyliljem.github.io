@@ -1,0 +1,37 @@
+body{
+    width: auto;
+  }
+  header{
+     font-family: 'Merriweather', serif;
+     text-align: center;
+     font-size: 1.75rem;
+  }
+  header, footer {
+    padding: 10px;
+  }
+   .cards {
+      display: grid;
+      grid-template-columns: 1fr; 
+      grid-gap: 10px;
+      padding: 10px;
+      align-items: center;
+      text-align: center;
+  }
+  section{
+    border: 1px solid black;
+    padding: 15px;
+    background-color: #4682B4;
+    
+  }
+  p, h2, footer {
+    font-family: Verdana;
+    text-align: center;
+    color: white;
+  }
+  footer{
+    color: black;
+  }
+  
+  img {
+    box-shadow: 0 10px 15px;  
+  }

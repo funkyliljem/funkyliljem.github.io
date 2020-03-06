@@ -1,0 +1,7 @@
+/* Media Query for medium + screens */
+@media only screen and (min-width: 700px) {
+    .cards{
+           grid-template-columns: 1fr 1fr;
+           clear: both;
+       } 
+   }
