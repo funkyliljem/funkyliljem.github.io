@@ -9,7 +9,7 @@ body{
   header, footer {
     padding: 10px;
   }
-   .cards {
+  .cards {
       display: grid;
       grid-template-columns: 1fr; 
       grid-gap: 10px;
