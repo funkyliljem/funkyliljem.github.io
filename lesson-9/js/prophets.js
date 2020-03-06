@@ -18,8 +18,8 @@ let birthplace = document.createElement('p');
 let image = document.createElement('img');
 
 h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-birthdate.textContent = "Date of Birth:" + prophets[i].birthdate;
-birthplace.textContent = "Birth Place:" + prophets[i].birthplace;
+birthdate.textContent = "Date of Birth:" +' ' + prophets[i].birthdate;
+birthplace.textContent = "Birth Place:" + ' ' + prophets[i].birthplace;
 
 image.setAttribute('src', prophets[i].imageurl);
 image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + '-' + prophets[i].order);
