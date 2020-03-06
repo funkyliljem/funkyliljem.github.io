@@ -24,7 +24,7 @@ body{
     
   }
   p, h2, footer {
-    font-family: Verdana;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: white;
   }
