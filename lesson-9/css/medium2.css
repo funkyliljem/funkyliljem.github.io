@@ -18,19 +18,18 @@
 
 	article {
 	display: flex;
-	flex-wrap: wrap;
+  flex-wrap: wrap;
 	}
 	
 	section {
 	display: flex;
 	flex-direction: row;
+  justify-content: space-evenly;
 	}
 		  
 	section:nth-child(odd) {
 	flex-direction: row-reverse;
 	} 
-
-
 }
 
 
