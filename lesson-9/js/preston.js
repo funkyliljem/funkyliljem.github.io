@@ -22,7 +22,7 @@ let averageRainfall = document.createElement('p');
 let image = document.createElement('img');
 
 h2.textContent = towns[i].name;
-motto.textContent = towns[i].motto;
+motto.textContent = "Motto:" + ' ' + towns[i].motto;
 yearFounded.textContent = "Year Founded:" + ' ' + towns[i].yearFounded;
 currentPopulation.textContent = "Population:" +' ' + towns[i].currentPopulation;
 averageRainfall.textContent = "Average Rainfall:" + ' ' + towns[i].averageRainfall;
