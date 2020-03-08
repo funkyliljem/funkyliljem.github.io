@@ -15,35 +15,21 @@
 	.navigation li:first-child {
 		display: none;
 	}
-	
-#forecast-container{
-	display: block; 
+
+	article {
+	display: flex;
+	flex-wrap: wrap;
 	}
 	
-#article-container{
+	section {
 	display: flex;
-	justify-content: center;
-	text-align: center;
-}
-    
-#contact-container{
-	display: block;
-}
+	flex-direction: row;
+	}
+		  
+	section:nth-child(odd) {
+	flex-direction: row-reverse;
+	} 
 
-.contact-info{
-    float: right; 
-	padding: 5%;
 }
-.preston-map img{
-	display: block; 
-	width: 30%; 
-	float: left;
-	height: 100%; 
-	padding: 5%;
-}
+	
 
-.picture-article {
-	display: block; 
-
-}   
-}
