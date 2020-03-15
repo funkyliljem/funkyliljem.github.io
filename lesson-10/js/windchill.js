@@ -11,5 +11,3 @@ else {
     message = "N/A";
     }
     document.getElementById('windchill').innerHTML = message;
-
-
