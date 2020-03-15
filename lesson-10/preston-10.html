@@ -54,10 +54,10 @@
                 <h3>Weather Summary</h3>
                 <hr style="border: 0.5px solid black;">
                 <p> Currently: Sunny</p>
-                <p> Temp:<span id="temp"> 49 </span></p>
-                <p> Wind Chill:<span id="windchill"> </span> </p
-                <p> Humidity: 25%</p>
-                <p> Wind Speed:<span id="speed"> 10 </span></p>
+                <p> Temp: <span id="current-temp"></span>&deg; F</p>
+                <p> Wind Chill:<span id="windchill"></span> </p>
+                <p> Humidity: <span id="humidity"></span> </p>
+                <p> Wind Speed:<span id="speed"></span> </p>
             </section>
         </div>
             </div>
@@ -68,28 +68,28 @@
             <h2>Weekly Weather Report</h2>
             <div class="flex">
                 <div class="col">
-                    <span class="label">Monday</span>
-                    <img src="" alt="weather">
+                    <span class="day">Monday</span>
+                    <span id="imagesrc"></span> &nbsp; <img src="https://openweathermap.org/img/w/" alt="weather" id="icon">
+                    <span class="description"></span>
+                </div>
+                <div class="col">
+                    <span class="day">Tuesday</span>
+                    <span id="imagesrc"></span> &nbsp; <img src="https://openweathermap.org/img/w/" alt="weather" id="icon">
                     <span class="data">Partly Cloudy</span>
                 </div>
                 <div class="col">
-                    <span class="label">Tuesday</span>
-                    <img src="" alt="weather">
+                    <span class="day">Wednesday</span>
+                    <span id="imagesrc"></span> &nbsp; <img src="https://openweathermap.org/img/w/" alt="weather" id="icon">
                     <span class="data">Partly Cloudy</span>
                 </div>
                 <div class="col">
-                    <span class="label">Wednesday</span>
-                    <img src="" alt="weather">
+                    <span class="day">Thursday</span>
+                    <span id="imagesrc"></span> &nbsp; <img src="https://openweathermap.org/img/w/" alt="weather" id="icon">
                     <span class="data">Partly Cloudy</span>
                 </div>
                 <div class="col">
-                    <span class="label">Thursday</span>
-                    <img src="" alt="weather">
-                    <span class="data">Partly Cloudy</span>
-                </div>
-                <div class="col">
-                    <span class="label">Friday</span>
-                    <img src="" alt="weather">
+                    <span class="day">Friday</span>
+                    <span id="imagesrc"></span> &nbsp; <img src="https://openweathermap.org/img/w/" alt="weather" id="icon">
                     <span class="data">Partly Cloudy</span>
                 </div>
                 </div>

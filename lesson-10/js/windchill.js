@@ -1,5 +1,5 @@
 
-const temp = parseFloat(document.getElementById('temp').textContent);
+const temp = parseFloat(document.getElementById('current-temp').textContent);
 const speed = parseFloat(document.getElementById('speed').textContent);
 
 const windChill = Math.round(35.74+0.6215*temp-(35.75*(speed**0.16))+0.4275*(temp*(speed**0.16)));
