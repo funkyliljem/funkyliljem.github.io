@@ -1,30 +1,43 @@
-const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=4d740699e37a38e6fd92554001fa0cb3';
+const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=4d740699e37a38e6fd92554001fa0cb3';
 
-fetch(forecastURL)
+let weekDay = []; 
+    weekDay[0]="Sunday";
+    weekDay[1]="Monday";
+    weekDay[2]="Tuesday";
+    weekDay[3]="Wednesday";
+    weekDay[4]="Thursday";
+    weekDay[5]="Friday";
+    weekDay[6]="Saturday";
+
+
+fetch(apiURL2)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
 
-    const weekTemp = document.querySelector('#temp');
+    const forecast = jsObject.list.filter(x => 
+        x.dt_txt.includes('18:00:00'));
+        console.log(forecast);
 
-    weekTemp.textContent = Math.round(jsObject.main.temp);
+    for (let i=0; i<jsObject.list.length; i++) {
+        
 
-    const fivedayforecast = jsObject.list.filter(x => 
-    x.dt_txt.includes('18:00:00'));
-    console.log(fivedayforecast);
+    let forecasts = document.createElement('section');
+    let h2 = document.createElement('h2');
+    let image = document.createElement('img');
+    let temperature = document.createElement('p');
 
+    h2.textContent = weekDay[d.getDay()];
+    temperature.textContent = Math.round(jsObject.list[i].main.temp);
 
-    for (let i=0; i<fivedayforecast.length; i++)  {
-    document.getElementById(`forecast${i+1}`).
-    textContent = fivedayforecast[i].main.temp;}
+    image.setAttribute('src', 'https://openweathermap.org/img/w/' + jsObject.list[i].weather[0].icon + '.png');
+    image.setAttribute('alt', jsObject.list[i].jsObject.weather[0].description);
+    
+    forecasts.appendChild(header);
+    forecasts.appendChild(image);
+    forecasts.appendChild(temperature);
 
+    document.querySelector('div.forecast').appendChild(forecasts);
 
-
-   const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
-   const desc = jsObject.weather[0].description;  // note how we reference the weather array
-   document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
-   document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-   document.getElementById('icon').setAttribute('alt', desc);
- 
-  });
-   
+    };
+})

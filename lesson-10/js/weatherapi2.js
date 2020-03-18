@@ -4,6 +4,7 @@ fetch(forecastURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
+
     const currentTemp = document.querySelector('#current-temp');
     const humidity = document.querySelector('#humidity');
     const speed = document.querySelector('#speed');
@@ -13,14 +14,7 @@ fetch(forecastURL)
     humidity.textContent = Math.round(jsObject.main.humidity);
     speed.textContent = Math.round(jsObject.wind.speed);
     current.textContent = Math.round(jsObject.main.feels_like);
+ 
+    })
 
-    const windChill = Math.round(35.74+0.6215*currentTemp-(35.75*(speed**0.16))+0.4275*(currentTemp*(speed**0.16)));
-
-    if (currentTemp <= 50 && speed > 3) {
-        document.getElementById('windchill').innerHTML =`${windChill}`;
-    }
-    else {
-      document.getElementById('windchill').innerHTML = "N/A";
-        }
-})
-
+    

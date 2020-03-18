@@ -6,7 +6,6 @@ let weekDate = [
     "Thursday",
     "Friday",
     "Saturday",
-    
 ];
 
 let months = [
