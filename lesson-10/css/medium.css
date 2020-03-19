@@ -1,5 +1,5 @@
 /* Media Query for medium + screens */
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 600px) {
 	.navigation {
 		display: flex;
 	}
@@ -19,6 +19,14 @@
 #forecast-container{
 	display: block; 
 	}
+
+#forecast{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+		grid-gap: 20px;
+		align-items: center;
+		text-align: center; 
+	}
 	
 #article-container{
 	display: flex;
@@ -35,7 +43,7 @@
 	padding: 5%;
 }
 .preston-map img{
-	display: block; 
+	display: flex; 
 	width: 30%; 
 	float: left;
 	height: 100%; 

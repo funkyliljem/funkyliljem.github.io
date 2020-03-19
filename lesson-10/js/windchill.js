@@ -1,3 +1,5 @@
+const apiURL2 = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=4d740699e37a38e6fd92554001fa0cb3';
+
 const temp = parseFloat(document.getElementById('current-temp').textContent);
 const speed = parseFloat(document.getElementById('speed').textContent);
 
