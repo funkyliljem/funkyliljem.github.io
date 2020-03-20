@@ -1,0 +1,31 @@
+/* Desktop Views ****************************/
+@media only screen and (min-width: 900px) {
+	nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	article:nth-child(3) {
+		grid-column: span 1;
+	}
+	#forecast-container{
+		display: block; 
+		max-width: 960px;
+	}
+	.tree-image{
+		display: block;
+		width: 100%;
+    }	
+    #contact-container{
+        display: block;
+        max-width: 960px;
+    }
+    footer{
+		max-width: 960px;
+	}
+	.picture-article {
+		display: block; 
+		float: right;
+}
+}
