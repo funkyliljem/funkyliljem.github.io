@@ -12,6 +12,7 @@
 	#forecast-container{
 		display: block; 
 		max-width: 960px;
+		grid-column: span 1;
 	}
 	.tree-image{
 		display: block;

@@ -17,15 +17,16 @@
 	}
 	
 #forecast-container{
-	display: block; 
+	display: block;
 	}
 
-#forecast{
+.forecast{
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
 		grid-gap: 20px;
-		align-items: center;
-		text-align: center; 
+		align-content: center;
+		text-align: center;
+		background-color:#FFFDD1;
 	}
 	
 #article-container{
