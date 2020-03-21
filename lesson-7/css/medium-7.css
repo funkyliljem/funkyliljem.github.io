@@ -1,0 +1,26 @@
+/* Media Query for medium + screens */
+@media only screen and (min-width: 700px) {
+	.navigation {
+		display: flex;
+	}
+
+	.navigation li {
+		display: block; /* needed because of state in small view */
+		flex: 1 1 100%;
+	}
+
+	.navigation li a {
+		color: white;
+		text-align: center;
+	}
+	 
+	.grid-container{
+		grid-template-columns: 1fr 1fr;
+		clear: both;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+
+}
+

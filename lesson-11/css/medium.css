@@ -23,10 +23,20 @@
 #forecast{
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
-		grid-gap: 20px;
+		grid-gap: 0px;
 		align-items: center;
 		text-align: center; 
+		background-color:#FFFDD1;
+		border: 1px solid black;
+		
 	}
+#forecast h3{
+	background-color:#eee;
+	padding: .5em;
+	margin-top: inherit;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
 	
 #article-container{
 	display: flex;
@@ -55,3 +65,5 @@
 
 }   
 }
+
+

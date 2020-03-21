@@ -1,16 +1,13 @@
 const requestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=4d740699e37a38e6fd92554001fa0cb3';
 
-const weekDay = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday"
-];
-
-let w = new Date();
+const weekDay = [];
+weekDay[0] = "Sunday";
+weekDay[1] = "Monday";
+weekDay[2] = "Tuesday";
+weekDay[3] = "Wednesday";
+weekDay[4] = "Thursday";
+weekDay[5] = "Friday";
+weekDay[6] = "Saturday";
 
 fetch(requestURL)
   .then((response) => response.json())
@@ -20,7 +17,10 @@ fetch(requestURL)
     const forecast = jsObject.list.filter(x => x.dt_txt.includes ('18:00:00'));
     console.log(forecast);
 
-    for (let i = 0; i < forecast.length; i++) { 
+    for (i = 0; i < forecast.length; i++) { 
+
+    let w = new Date(forecast[i].dt_txt);
+    console.log(w.getDay());
 
     let weatherReport = document.createElement('section');
     let h3 = document.createElement('h3');
