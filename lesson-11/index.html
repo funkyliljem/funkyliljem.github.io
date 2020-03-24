@@ -20,7 +20,7 @@
     <header>
         <span id="friday"></span>
         <picture class="logo">
-            <img src="images/weathericon.png" alt="Sky Check Now"> 
+            <img src="images/weathericon.png" alt="Sky Check Now">
         </picture>
         <section class="headings">
             <h1>Sky Check Now</h1>
@@ -31,7 +31,7 @@
     <nav>
         <ul class="navigation">
             <li><a class="ham">&#9776; Menu</a></li>
-            <li><a href="https://funkyliljem.github.io/lesson-9/preston-9.html"> Home</a></li>
+            <li><a href="home.html"> Home</a></li>
             <li><a href="index.html"> Preston</a></li>
             <li><a href="soda_springs.html"> Soda Springs</a></li>
             <li><a href="fish_haven.html"> Fish Haven</a></li>
@@ -65,10 +65,10 @@
         <br><br>
         <div id="forecast-container" class="content">
             <h2>Weekly Weather Report</h2>
-                <section id="forecast"> 
-                </section>
+            <section id="forecast">
+            </section>
         </div>
-<!--        <div id="forecast-container" class="content">
+        <!--        <div id="forecast-container" class="content">
             <h2>Weekly Weather Report</h2>
              <div class="flex">
                 <div class="col">
@@ -99,7 +99,7 @@
                 </div>
             </div>
         </div>
---> 
+-->
         <br><br>
 
         <div id="article-container">
@@ -125,36 +125,46 @@
             </div>
         </div>
 
+        <div id="event-container">
+            <h4>Preston Events</h4>
+            <section id="events">
+            </section>
+        </div>
+
         <br><br>
 
         <div id="contact-container">
             <div class="preston-map">
-                <img src="images/preston-map.JPG" alt="preston-google">
+                <p style="clear:left">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d39831.81732541741!2d-111.87721663927101!3d42.096385647552694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1585043042413!5m2!1sen!2sus"
+                    width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe></p>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Address: 1234 Main Street Preston, ID 12345 </p>
+                <p> Telephone: 808-124-4565 </p>
+            
 
-                <div class="contact-info">
-                    <h3>Contact Information</h3>
-                    <p>Address: 1234 Main Street Preston, ID 12345 </p>
-                    <p> Telephone: 808-124-4565 </p>
+                <div class="social">
+                    <!--Social Media Icons-->
 
+                    <a href="https://www.facebook.com/">
+                        <img src="https://cdn.glitch.com/c852da23-70d9-4da6-83eb-4823e3bbe587%2Ffacebook.png?1518559207353"
+                            alt="Facebook icon"></a>
 
-                    <div class="social">
-                        <!--Social Media Icons-->
+                    <a href="https://www.instagram.com/">
+                        <img src="https://cdn.glitch.com/546809c6-da8f-4df8-a638-5d9c656ea1a9%2Finstagram.png?v=1574544010728"
+                            alt="Instagram icon"></a>
 
-                        <a href="https://www.facebook.com/">
-                            <img src="https://cdn.glitch.com/c852da23-70d9-4da6-83eb-4823e3bbe587%2Ffacebook.png?1518559207353"
-                                alt="Facebook icon"></a>
-
-                        <a href="https://www.instagram.com/">
-                            <img src="https://cdn.glitch.com/546809c6-da8f-4df8-a638-5d9c656ea1a9%2Finstagram.png?v=1574544010728"
-                                alt="Instagram icon"></a>
-
-                        <a href="https://www.youtube.com/">
-                            <img src="https://cdn.glitch.com/546809c6-da8f-4df8-a638-5d9c656ea1a9%2Fyoutube.png?v=1574544014313"
-                                alt="YouTube icon"></a>
-                    </div>
-    </div> </div>   </div>
-     
-        </main> 
+                    <a href="https://www.youtube.com/">
+                        <img src="https://cdn.glitch.com/546809c6-da8f-4df8-a638-5d9c656ea1a9%2Fyoutube.png?v=1574544014313"
+                            alt="YouTube icon"></a>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer>
         <h4>&copy;
             <!--Current Day, Month, Date, Year--> <span id="currentdate"></span>
@@ -163,7 +173,8 @@
                 Learn</a>
         </h4>
     </footer>
-         
+
+
 
     <script src="js/friday.js"></script>
     <script src="js/toggle.js"></script>
@@ -178,7 +189,7 @@
             }
         });
     </script>
-     
+
 </body>
 
 </html>

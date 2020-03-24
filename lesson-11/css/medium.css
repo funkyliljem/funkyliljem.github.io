@@ -26,12 +26,12 @@
 		grid-gap: 0px;
 		align-items: center;
 		text-align: center; 
-		background-color:#FFFDD1;
 		border: 1px solid black;
 		
 	}
 #forecast h3{
-	background-color:#eee;
+	background-color:#36454f;
+	color: white;
 	padding: .5em;
 	margin-top: inherit;
 	border-right: 1px solid black;
@@ -49,21 +49,20 @@
 }
 
 .contact-info{
-    float: right; 
 	padding: 5%;
 }
-.preston-map img{
-	display: flex; 
-	width: 30%; 
+.preston-map{ 
+	display: block; 
 	float: left;
-	height: 100%; 
 	padding: 5%;
 }
-
 .picture-article {
 	display: block; 
 
 }   
+footer{
+	display: flex;
+}
 }
 
 

@@ -22,7 +22,7 @@
         max-width: 960px;
     }
     footer{
-		max-width: 960px;
+		max-width: 100%;
 	}
 	.picture-article {
 		display: block; 
