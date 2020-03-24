@@ -1,7 +1,19 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+.logo{
+    width: 125px;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
+}
+
 nav {
 	margin: 0 auto;
 	max-width: 100%;
-	background-color: #000;
+    background-color: #36454f;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.25em;
 }
 .navigation {
 	list-style: none;
@@ -38,6 +50,11 @@ h2,h3,h4,p{
     text-align: center;
 }
 
+h1{
+    font-family: 'Bangers';
+    text-align: center;
+}
+
 .content {
     display: block;
     margin: 10px auto; 
@@ -55,14 +72,6 @@ header{
 	justify-content: center;
     padding: 10px;
     font-family: 'Bangers', cursive;
-}
-
-nav {
-	background-color: #36454f;
-	text-align: center;
-	box-shadow: 0 2px 15px gray;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 1.25em;
 }
 
 footer {

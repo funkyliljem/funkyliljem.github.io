@@ -1,0 +1,176 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.logo{
+    width: 125px;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
+}
+/*----------- BODY --------------*/
+p,h3 {
+    font-size: 18px;
+    font-family: Gelasio;
+    
+}
+
+
+/*----------- HEADER --------------*/
+header {
+   /* padding: .5rem 2%;*/
+    background-color: #ddd;
+}
+header h1 {margin: 0;}
+header h2 {margin: 0; font-weight: normal;}
+
+header{
+	background-color: #FFFDD1;
+    display: flex;
+    flex-flow: column;
+	align-items: center;
+	justify-content: center;
+    padding: 10px;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+}
+
+/*----------- NAVIGATION --------------*/
+
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+    background-color: #36454f;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.25em;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0px;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #000;
+	background-color: #fff;
+	font-weight: 700;
+}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+.responsive li {
+    display: block;
+
+}
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+}
+
+/*----------- FORM --------------*/
+
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .3rem 2%; 
+}
+
+form legend{
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%; 
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs{
+    display: block;
+    padding: .75rem;
+    color: #555;
+}
+
+form label.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;   
+}
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+.flexly {
+	display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+#ratingvalue {
+	margin: 0 15px;
+}
+/*----------- FOOTER --------------*/
+
+footer {
+    display: block;
+    flex: 0 1 100%;
+    padding: .5rem 2%;
+    height: 4rem;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    background-color: #FFFDD1;
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
