@@ -13,7 +13,9 @@ fetch(requestURL)
     for (let i = 0; i < towns.length; i++ ) {
         if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs"){
   
-
+let card = document.createElement('section');
+let h2 = document.createElement('h2');
+let motto = document.createElement('p');
 let yearFounded = document.createElement('p');
 let currentPopulation = document.createElement('p');
 let averageRainfall = document.createElement('p');
