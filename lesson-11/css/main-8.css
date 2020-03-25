@@ -158,15 +158,15 @@ form label.top input:required:valid {
 	margin: 0 15px;
 }
 /*----------- FOOTER --------------*/
-
 footer {
-    display: block;
-    flex: 0 1 100%;
-    padding: .5rem 2%;
-    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Gelasio', serif;
     text-align: center;
-    font-family: 'Bangers', cursive;
-    background-color: #FFFDD1;
+    max-width: 100%;
+    background-color: #36454f;
+    color: white;
 }
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
