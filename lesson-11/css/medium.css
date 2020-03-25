@@ -49,12 +49,13 @@
 }
 
 .contact-info{
-	padding: 5%;
+	padding: 7%;
 }
 .preston-map{ 
 	display: block; 
 	float: left;
-	padding: 5%;
+	box-shadow: 10px lightgrey;
+
 }
 .picture-article {
 	display: block; 
@@ -62,6 +63,8 @@
 }   
 footer{
 	display: flex;
+	text-align: center;
+	align-items: center;
 }
 }
 

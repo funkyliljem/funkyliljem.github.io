@@ -1,4 +1,10 @@
 /*HEADER*/
+.logo{
+    width: 125px;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
+}
   
 header{
 	background-color: #FFFDD1;
@@ -9,7 +15,8 @@ header{
     padding: 10px;
     font-family: 'Bangers', cursive;
 }
-h1, h2, footer{
+h1, h2, h3{
+	font-family: 'Gelasio', serif;
     text-align: center;
 }
 
@@ -51,7 +58,9 @@ nav {
 }
 
 nav {
-	background-color: #36454f;
+	margin: 0 auto;
+	max-width: 100%;
+    background-color: #36454f;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
     font-family: 'Barlow Condensed', sans-serif;
@@ -73,6 +82,14 @@ section {
   padding: 15px; 
   font-family: Gelasio;
   background-color: #FFFDD1;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    max-width: 100%;
 }
 
 

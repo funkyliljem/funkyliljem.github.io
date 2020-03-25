@@ -15,7 +15,7 @@ fetch(requestURL)
     //console.log(jsObject);
 
     const forecast = jsObject.list.filter(x => x.dt_txt.includes ('18:00:00'));
-    console.log(forecast);
+    //console.log(forecast);
 
     for (i = 0; i < forecast.length; i++) { 
 

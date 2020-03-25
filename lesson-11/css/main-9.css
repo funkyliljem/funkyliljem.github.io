@@ -51,12 +51,15 @@ nav {
 }
 
 nav {
-	background-color: #36454f;
+	margin: 0 auto;
+	max-width: 100%;
+    background-color: #36454f;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 1.25em;
 }
+
 
 /*TOWN CARDS*/
 
@@ -74,6 +77,16 @@ section {
   font-family: Gelasio;
   background-color: #FFFDD1;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    max-width: 100%;
+}
+
 
 
 

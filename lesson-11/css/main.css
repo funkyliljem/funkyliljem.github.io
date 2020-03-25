@@ -159,9 +159,11 @@ div{
   }
 
 #event-container {
-
-}
-#events{
+    display: flex;
+    border: 1px solid red;
+    background-color: lavenderblush;
+    max-width: 450px;
+    justify-content: center;
     
 }
 
@@ -169,13 +171,20 @@ div{
     display: block;
     margin: 0 auto;
     padding: 2.5%;  
+    background-color: #FFFDD1;
 }
 
 .contact-info{
     align-items: center;
     text-align: center;
     justify-content: center;
+    background-color: #FFFDD1;
 }
+
+.contact-info h3{
+    font-family: 'Bangers', cursive;
+}
+
 
 .preston-map{
     display: none; 
@@ -187,6 +196,7 @@ div{
     text-align: center;
     align-items: center;
 }
+
 footer {
     display: flex;
     align-items: center;
@@ -194,5 +204,7 @@ footer {
     font-family: 'Bangers', cursive;
     text-align: center;
     max-width: 100%;
+    background-color: #36454f;
+    color: white;
 }
 
