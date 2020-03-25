@@ -10,19 +10,29 @@ fetch(getURL)
     const events = jsonObject['towns'];
     console.log(events);
 
-    for (let i = 0; i < events.length; i++ ) {
-        if (events[i].name == "Fish Haven"){
+    for (let i = 0; i < towns.length; i++ ) {
+        if (towns[i].name == "Fish Haven"){
             
             let events = document.createElement('section');
             let h2 = document.createElement('h2');
-            let event = document.createElement('p');
+            let event0 = document.createElement('p');
+            let event1 = document.createElement('p');
+            let event2 = document.createElement('p');
+            let event3 = document.createElement('p');
 
         h2.textContent = towns[i].name + "Upcoming Events";
-        events.textContent = towns[i].events[""];
+        events0.textContent = towns[i].events;
+        events1.textContent = towns[i].events;
+        events2.textContent = towns[i].events;
+        events3.textContent = towns[i].events;
      
 
         events.appendChild(h2);
-        events.appendChild(event);
+        events.appendChild(event0);
+        events.appendChild(event1);
+        events.appendChild(event2);
+        events.appendChild(event3);
+
       
 
         document.querySelector('#events').appendChild(events)
