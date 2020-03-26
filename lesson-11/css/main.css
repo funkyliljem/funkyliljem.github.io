@@ -163,8 +163,7 @@ div{
     border: 1px solid red;
     background-color: lavenderblush;
     max-width: 450px;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
 #contact-container{
