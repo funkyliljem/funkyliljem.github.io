@@ -19,6 +19,15 @@ header{
 h1, h2, footer{
     text-align: center;
 }
+h2,h3,h4,p{
+    font-family: 'Gelasio', serif;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Bangers';
+    text-align: center;
+}
 
 
 /*NAVIGATION MENU*/

@@ -20,7 +20,7 @@
 	display: block; 
 	}
 
-#forecast{
+#forecast, #forecast2, #forecast3 {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
 		grid-gap: 0px;
@@ -29,7 +29,7 @@
 		border: 1px solid black;
 		
 	}
-#forecast h3{
+#forecast h3, #forecast2 h3, #forecast3 h3{
 	background-color:#36454f;
 	color: white;
 	padding: .5em;

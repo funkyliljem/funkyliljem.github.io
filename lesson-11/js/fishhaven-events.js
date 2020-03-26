@@ -11,9 +11,9 @@ fetch(getURL)
     console.log(towns);
 
     for (let i = 0; i < towns.length; i++ ) {
-        if (towns[i].name == "Soda Springs"){
+        if (towns[i].name == "Fish Haven"){
             
-            let sodaEvents = document.createElement('section');
+            let fishHavenEvents = document.createElement('section');
             let h2 = document.createElement('h2');
             let event0 = document.createElement('p');
             let event1 = document.createElement('p');
@@ -27,15 +27,15 @@ fetch(getURL)
         event3.textContent = towns[i].events[3];
      
 
-       sodaEvents.appendChild(h2);
-       sodaEvents.appendChild(event0);
-       sodaEvents.appendChild(event1);
-       sodaEvents.appendChild(event2);
-       sodaEvents.appendChild(event3);
+       fishHavenEvents.appendChild(h2);
+       fishHavenEvents.appendChild(event0);
+       fishHavenEvents.appendChild(event1);
+       fishHavenEvents.appendChild(event2);
+       fishHavenEvents.appendChild(event3);
 
       
 
-        document.querySelector('#soda-events').appendChild(sodaEvents)
+        document.querySelector('#fishhaven-events').appendChild(fishHavenEvents)
 
     }}
 }

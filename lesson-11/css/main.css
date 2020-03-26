@@ -160,8 +160,9 @@ div{
 
 #event-container {
     display: flex;
-    border: 1px solid red;
-    background-color: lavenderblush;
+    border: 1px solid black;
+    background-color: #36454f;
+    color: white;
     max-width: 450px;
     justify-content: center;  
 }
