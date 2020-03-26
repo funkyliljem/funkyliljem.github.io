@@ -1,6 +1,6 @@
 const forecastURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=4d740699e37a38e6fd92554001fa0cb3';
 
-fetch(webURL)
+fetch(forecastURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
@@ -15,5 +15,3 @@ fetch(webURL)
     speed.textContent = Math.round(jsObject.wind.speed);
     current.textContent = Math.round(jsObject.main.feels_like);
     })
-
-    
