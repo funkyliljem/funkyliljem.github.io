@@ -25,7 +25,6 @@ header {
 }
 header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
-
 header{
 	background-color: #FFFDD1;
     display: flex;

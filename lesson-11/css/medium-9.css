@@ -16,8 +16,9 @@
 		display: none;
 	}
 
-	h2 { 
-	text-align:center;
+	h2, p{ 
+	text-align: center;
+	align-items: center;
 	}
 
 	article {
