@@ -3,7 +3,7 @@ const apiURL2 = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&unit
 const temp = parseFloat(document.getElementById('current-temp').textContent);
 const speed = parseFloat(document.getElementById('speed').textContent);
 
-const windChill = Math.round(35.74+0.6215*temp-(35.75*(speed**0.16))+0.4275*(temp*(speed**0.16)));
+const windChill = Math.round(35.74+0.6215*jsObject.main.temp-(35.75*(jsObject.wind.speed**0.16))+0.4275*(jsObject.main.temp*(jsObject.wind.speed**0.16)));
 
 if (temp <= 50 && speed > 3) {
     document.getElementById('windchill').innerHTML = windChill;
