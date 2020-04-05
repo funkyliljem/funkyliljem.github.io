@@ -1,0 +1,86 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+body{
+    margin: 0;
+    background-color: #028FB7 ;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #a9e5bb;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both; 
+}
+
+.logo{
+    float: left;
+    padding: 10px;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0; 
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: block;
+    position: relative;
+    padding: 5px;
+    align-items: center;
+}
+
+nav a{
+    color: #028FB7; 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: #444;
+    text-decoration: underline;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.responsive li {
+    display: block;
+}
+
+h1{
+    font-family: 'Eduardo Tunni'; 
+}
+
+h2 {
+    font-family: 'Rokkitt'; 
+}
+
+h3,h4,h5{
+    font-family: 'Rajdhani';
+}
+
+
+
+
+
+
+
+
+
+
+
