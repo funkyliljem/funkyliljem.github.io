@@ -114,7 +114,7 @@ nav a:hover{
 .welcome-container {
      display: block;
      padding-left: 10px; 
-     width: 95%;
+     width: 100%;
      justify-content: center;
      align-items: center;
 }
@@ -142,24 +142,22 @@ nav a:hover{
 	background-color: #F4F2F1;
 }
 
-#ws-heading{
-    align-items: left;
-}
-
 .weather-info{
     display: flex;
-    column-gap: 5px;
+    position: relative;
     border: 2px dashed white;
     justify-content: center;
     padding-left: 5px;
     margin: 15px;  
-    max-width: 450px;
+    max-width: 400px;
     text-align: center;
     justify-items: center;
 }
 .report{
     text-align: center;
     justify-items: center;
+    padding: 10px;
+    
 }
 
 
