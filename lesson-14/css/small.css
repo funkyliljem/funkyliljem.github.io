@@ -1,65 +1,10 @@
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
+/***********ALL BODY INFO*********/
 body{
-    margin: 0;
-    background-color: #028FB7 ;
-    color: white;
-}
-
-.container{
-    width: 80%;
     margin: 0 auto;
-}
-
-header{
-    background-color: #a9e5bb;
-}
-
-header::after{
-    content: '';
-    display: table;
-    clear: both; 
-}
-
-.logo{
-    float: left;
-    padding: 10px;
-}
-
-nav{
-    float: right;
-}
-
-nav ul{
-    margin: 0; 
-    padding: 0;
-    list-style: none;
-}
-
-nav li{
-    display: block;
-    position: relative;
-    padding: 5px;
-    align-items: center;
-}
-
-nav a{
-    color: #028FB7; 
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-nav a:hover{
-    color: #444;
-    text-decoration: underline;
-}
-
-.navigation li:first-child {
-	display: block;
-}
-
-.responsive li {
-    display: block;
+    background-color:#028FB7;
+    color:white;
 }
 
 h1{
@@ -74,8 +19,159 @@ h3,h4,h5{
     font-family: 'Rajdhani';
 }
 
+a:hover{
+    color: purple;
+}
+
+/***********ALL HEADER INFO*********/
+.container{
+    width: 80%;
+    margin: 0;
+}
+
+.book{
+    display: flex;
+    background-color: #024B57;
+    width: 100%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+.book:a:hover{
+    color: purple;
+}
+
+.book a{
+    color: white
+}
 
 
+header{
+    background-color: #a9e5bb;
+    padding: 0;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both; 
+}
+
+.logo{
+    float: left;
+    padding: 10px;
+}
+
+/***********ALL NAVIGATION INFO*********/
+nav{
+    display: block;
+    text-align: right;
+}
+
+nav ul{
+    margin: 0; 
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: none;
+    padding-top: 20px;
+    position: relative;
+    padding: 5px;
+}
+
+nav a{
+    color: #028FB7; 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: purple;
+    text-decoration: underline;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+
+.responsive li {
+    display: block;
+}
+
+/***********ALL HEADING***********/
+#heading {
+    text-align: center;
+}
+
+/***********HOME PAGE INFO*********/
+
+.welcome-container {
+     display: block;
+     padding-left: 10px; 
+     width: 95%;
+     justify-content: center;
+     align-items: center;
+}
+
+#welcome-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#river{
+    box-shadow: 0 0 20px #333;
+}
+
+.adventure-container {
+    display: flexbox;
+    grid-template-columns: 1fr; 
+    color: #028FB7; 
+}
+
+.cards {
+    margin: 0.5rem;
+	border: 2px solid black;
+	padding: 0 1rem;
+	background-color: #F4F2F1;
+}
+
+.weather-info{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2px dashed black;
+    padding-left: 10px;
+    margin: 5px;
+    width: 500px;
+}
+
+
+
+/***********RIVER GUIDE INFO*********/
+
+
+
+/***********RESERVATION INFO*********/
+
+
+
+/***********CONTACT US INFO*********/
+
+
+
+/***********FOOTER INFO*********/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a9e5bb;
+}
 
 
 

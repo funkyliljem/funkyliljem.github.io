@@ -8,7 +8,7 @@
     <meta name="author" content="Jewel Victorino">
     <meta name="description" content="Salmon River Adventures Web Page">
     <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Changa|Rajdhani|Rokkitt&display=swap" rel="stylesheet" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Eduardo+Tunni|Rajdhani|Rokkitt&display=swap" rel="stylesheet" rel="stylesheet">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
@@ -16,16 +16,21 @@
 </head>
 
 <body>
+  
 <header>
-    <div class="container">
+    
+    <div class="book">
+        <h3><a href="reservation.html"> Book Online Today</a></h3>
+        </div>
 
+    <div class="container">
         <img src="images/logo2.png" alt="logo" class="logo">
         
 <nav>
     <ul class="navigation">
         <li><a class="ham">&#9776; Menu</a></li>
         <li><a href="home.html"> Home</a></li>
-        <li><a href="preston.html"> River Guides</a></li>
+        <li><a href="river-guides.html"> River Guides</a></li>
         <li><a href="reservation.html"> Reservation</a></li>
         <li><a href="contact-us.html"> Contact Us</a></li>
     </ul>
@@ -36,28 +41,62 @@
 
 <main>
 
-<section class="welcome-container">
-    <h2>Welcome to Salmon River Adventures </h2>
+<div class="welcome-container">
+    <h1 id="heading">Welcome to Salmon River Adventures </h1>
     <p>We are the premeire river rafting company in Riggins, Id.
        Our family owned company employees many family members and 
        long-time rafters. We train to help you have fun in a safe 
        environment. You have fun and we will show you how it's 
-       done! You can count on our experience to keep you at ease 
+       done! We specialize with first time or inexperienced rafters.
+       Group and family rafting experiences are also available and 
+       can be customized depending on the riders familiarity of rafting. 
+       You can count on our experience to keep you at ease 
        while giving you the white water adventure of a lifetime!
     </p>
-    <picture class="river">
-        <img src="images/river.jpg" alt="river">
-    </picture>
+   <picture id="welcome-pic">
+    <source media="(max-width: 699px)" srcset="images/river-400.jpg" id="river">
+    <source media="(max-width: 999px)" srcset="images/river-600.jpg" id="river">
+    <img src="images/river.jpg" alt="river" id="river">
+   </picture>
+</div>
+<br> <br>
 
-</section>
-
+<h2 id="heading">Rafting Adventures</h2>
 <section class="adventure-container">
-    <h2>Our Adventures</h2>
-    <article>
-        <div class="cards"></div>
-    </article>
+        <article class="cards">
+            <h3>For Beginners</h3>
+            <img src="images/logo.jpg" alt="smooth river" id="begin">
+            <p>The first adventure is perfect for beginners.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <br>
+        </article>
+        <article class="cards">
+            <h3>For Intermediate</h3>
+            <img src="images/logo.jpg" alt="bubbly river" id="inter">
+            <p>The first adventure is perfect for beginners.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <br>
+        </article>
+        <article class="cards">
+            <h3>For Advanced</h3>
+            <img src="images/logo.jpg" alt="raging river" id="advance">
+            <p>The first adventure is perfect for beginners.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </article>
 </section>
 </main>
+
+<div class="weather-info">
+    <h2 id="heading">Weather Summary</h2>
+    <p> Currently Like:<span id="current"></span>&deg; F</p>
+    <p> Temp: <span id="current-temp"></span>&deg; F</p>
+    <p> Wind Chill: <span id="windchill"></span>&deg; F</p>
+    <p> Humidity: <span id="humidity"></span> %</p>
+    <p> Wind Speed:<span id="speed"></span> mph</p>
+</div>
 
 
 <footer>
@@ -68,12 +107,14 @@
             Learn</a>
     </h4>
 </footer>
+
 <script src="js/toggle.js"></script>
+<script src="js/date.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
             google: {
-                families: ["Changa", "Rajdhani", "Rokkitt"]
+                families: ["Eduardo Tunni", "Rajdhani", "Rokkitt"]
             }
         });
     </script>

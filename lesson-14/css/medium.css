@@ -1,9 +1,17 @@
 /* Media Query for medium + screens */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
+    
+/***********ALL BODY INFO*********/
+
+
+/***********ALL HEADER INFO*********/
+    
     .logo{
         float: left;
         padding: 10px;
     }
+
+/***********ALL NAVIGATION INFO*********/
     .navigation {
 		display: flex;
 	}
@@ -11,6 +19,10 @@
 	.navigation li a {
 		color:  #028FB7;
 		text-align: center;
+    }
+
+    nav{
+        float: right;
     }
     
     nav li{
@@ -39,4 +51,29 @@
     nav a:hover::before{
         width: 100%;
     }
+
+
+/***********HOME PAGE INFO*********/
+
+.adventure-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+}
+
+/***********RIVER GUIDE INFO*********/
+
+
+
+/***********RESERVATION INFO*********/
+
+
+
+/***********CONTACT US INFO*********/
+
+
+
+/***********FOOTER INFO*********/
+
+
+
 }

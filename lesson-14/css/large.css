@@ -1,8 +1,36 @@
 /* Desktop Views ****************************/
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 100px) {
+/***********ALL BODY INFO*********/
 
+
+
+/***********ALL HEADER INFO*********/
+
+
+
+/***********ALL NAVIGATION INFO*********/
     nav a {
 		font-size: 1.1rem;
     }
+
+
+/***********HOME PAGE INFO*********/
+
+
+/***********RIVER GUIDE INFO*********/
+
+
+
+/***********RESERVATION INFO*********/
+
+
+
+/***********CONTACT US INFO*********/
+
+
+
+/***********FOOTER INFO*********/
+
+
 
 }
