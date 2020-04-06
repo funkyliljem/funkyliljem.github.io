@@ -137,18 +137,31 @@ nav a:hover{
 
 .cards {
     margin: 0.5rem;
-	border: 2px solid black;
+	border: 1px solid grey;
 	padding: 0 1rem;
 	background-color: #F4F2F1;
 }
 
+#ws-heading{
+    align-items: left;
+}
+
 .weather-info{
-    display: grid;
-    grid-template-columns: 1fr;
-    border: 2px dashed black;
-    padding-left: 10px;
-    margin: 5px;
-    width: 500px;
+    display: flex;
+    column-gap: 5px;
+    border: 2px dashed white;
+    justify-content: center;
+    padding-left: 5px;
+    margin: 15px;  
+    max-width: 450px;
+    text-align: center;
+    justify-items: center;
+}
+
+#line{
+    padding: 2px;
+    border-right: 2px dashed white;
+    text-align: left;
 }
 
 
