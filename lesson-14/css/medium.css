@@ -57,15 +57,19 @@
 
 .adventure-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-columns: 1fr 1fr;
+    clear:both;  
 }
 
 
 /***********RIVER GUIDE INFO*********/
-.guides{
-    grid-template-columns: 1fr 1fr;
-    clear: both;
+.guides {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    clear:both;
 }
+
+
 
 
 /***********RESERVATION INFO*********/
