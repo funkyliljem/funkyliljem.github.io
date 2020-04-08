@@ -19,7 +19,9 @@
 
 /***********RIVER GUIDE INFO*********/
 
-
+.guides{
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 /***********RESERVATION INFO*********/
 

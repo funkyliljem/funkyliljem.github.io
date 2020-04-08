@@ -62,7 +62,10 @@
 
 
 /***********RIVER GUIDE INFO*********/
-
+.guides{
+    grid-template-columns: 1fr 1fr;
+    clear: both;
+}
 
 
 /***********RESERVATION INFO*********/

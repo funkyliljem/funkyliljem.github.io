@@ -167,6 +167,20 @@ nav a:hover{
 
 /***********RIVER GUIDE INFO*********/
 
+.guides-container{
+    border: 1px solid black;
+    padding: 15px;
+    background-color: #4682B4;
+}
+
+.guides{
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-gap: 10px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
 
 
 /***********RESERVATION INFO*********/
