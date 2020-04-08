@@ -15,7 +15,10 @@
 
 
 /***********HOME PAGE INFO*********/
-
+.adventure-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+}
 
 /***********RIVER GUIDE INFO*********/
 
