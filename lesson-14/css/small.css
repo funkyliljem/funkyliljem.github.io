@@ -133,14 +133,15 @@ nav a:hover{
     display: flexbox;
     grid-template-columns: 1fr; 
     color: #028FB7; 
-    border-radius: 5px;
+    
 }
 
 .cards {
     margin: 0.5rem;
 	border: 1px solid grey;
 	padding: 0 1rem;
-	background-color: #F4F2F1;
+    background-color: #F4F2F1;
+    border-radius: 5px;
 }
 
 .weather-info{
