@@ -7,11 +7,11 @@ body{
     color:white;
 }
 
-h1, p{
+h1{
     font-family: 'Cantata One', serif; 
 }
 
-h2 {
+h2, p{
     font-family: 'Rokkitt'; 
 }
 
@@ -185,7 +185,50 @@ nav a:hover{
 }
 
 /***********RESERVATION INFO*********/
+.table-container{
+    padding: 20px;
+}
 
+table{
+    width: 400px;
+    align-items: center;
+    box-shadow: 5px 5px 5px #333;
+}
+caption{
+    color: white;
+    font-family: Cantata;
+    font-weight: bold;
+    font-size: 20px;
+}
+th{
+    text-align: left;
+}
+table, th, td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background-color: #C2B8B2;
+    font-family: Cantata;
+    text-align: center;
+}
+td{
+    background-color: #F4F2F1;
+    font-family: Rokkitt;
+}
+
+.reservation-container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#heading4{
+    text-align: center;
+    color: white;
+}
 
 
 /***********CONTACT US INFO*********/
