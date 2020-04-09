@@ -40,7 +40,7 @@ a:hover{
     text-decoration: none;
 }
 
-.book:a:hover{
+.book a:hover{
     color: purple;
 }
 
@@ -131,7 +131,7 @@ nav a:hover{
 }
 
 .adventure-container {
-    display: flexbox;
+    display: grid;
     grid-template-columns: 1fr; 
     color: #028FB7; 
     
