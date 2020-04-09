@@ -41,11 +41,20 @@
 
 </header>
 
-<main class="reservation-container">
-    <h1 id="heading4">Reservation Info & Packages</h1>
-<div class="table-container">
+<main>
+<h1 id="heading4">Reservation Info & Packages</h1>
+<div class="scale">
+<picture id="scale-pic">
+    <source media="(max-width: 699px)" srcset="images/scale-banner-400.jpg" id="river scale">
+    <source media="(max-width: 999px)" srcset="images/scale-banner-600.jpg" id="river scale">
+    <img src="images/scale-banner.jpeg" alt="river scale" id="river">
+   </picture>
+</div>
+
+<div class="reservation-container">
+    <div class="table-container">
    <table>
-       <caption><h2>Package Information</h2></caption>
+       <caption><h2 id="heading4">Package Information</h2></caption>
        <br>
        <tr>
             <th>Length:</th>
@@ -95,6 +104,38 @@
    <br>
 </div>
 
+
+<div class="form-container">
+<h2 id="heading4">Reservation Form</h2>
+<form method="get">
+    <fieldset id="background">
+        <legend id="cust-info"><h3 id="heading4">Customer Information</h3></legend>
+        <label class="top">Full Name <input type="text" name="fullName" required></label> 
+    <p><label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com" required></label></p> 
+    <p><label class="top">Phone Number <input type="tel" name="phone" placeholder="123-555-1234" required></label></p>
+        <br>
+        <div>
+            <label class="top">Package:</label><br>
+            <p><label class="sbs"><input type="radio" name="package" value="beginner">Beginner</label></p>
+            <p><label class="sbs"><input type="radio" name="package" value="intermediate">Intermediate</label></p>
+            <p><label class="sbs"><input type="radio" name="package" value="advance">Advance</label></p>
+        </div><br>
+        <div>
+            <label class="top">Additional Options</label>
+              <p> <label class="sbs"><input type="checkbox" name="lunch" value="yes">Lunch</label>
+                <label class="sbs"><input type="checkbox" name="locker" value="yes">Locker</label>
+        </div><br>
+        <div>
+        <label class="top">Reservation Date<input type="date" name="reservationDate"></label>
+        </div><br>
+        <div>
+            <label class="top">Comments<input type="search"></label>
+            <p>
+            <input type="submit" value="Submit Your Information" class="submitBtn">
+        </div>
+    </fieldset>
+</div>
+</div>
 </main>
 
 <footer>

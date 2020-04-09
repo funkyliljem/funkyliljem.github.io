@@ -72,6 +72,10 @@
 
 /***********RESERVATION INFO*********/
 
+.reservation-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 
 /***********CONTACT US INFO*********/

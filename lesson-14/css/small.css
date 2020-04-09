@@ -187,18 +187,34 @@ nav a:hover{
 /***********RESERVATION INFO*********/
 .table-container{
     padding: 20px;
+    border-radius: 5px;
+}
+
+.scale{
+    display: flex;
+    position: relative;
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+#scale-pic{
+    
+    
 }
 
 table{
     width: 400px;
     align-items: center;
     box-shadow: 5px 5px 5px #333;
+    
 }
 caption{
     color: white;
     font-family: Cantata;
     font-weight: bold;
-    font-size: 20px;
+    
 }
 th{
     text-align: left;
@@ -223,12 +239,27 @@ td{
 .reservation-container{
     display: grid;
     grid-template-columns: 1fr;
+    max-width: 75%;
 }
 
 #heading4{
     text-align: center;
     color: white;
 }
+
+.form-container{
+    padding: 20px;
+    color: black;
+   }
+
+#background{
+     border: 2px dashed white;
+}
+
+.top{
+    padding: 10px;
+}
+
 
 
 /***********CONTACT US INFO*********/
