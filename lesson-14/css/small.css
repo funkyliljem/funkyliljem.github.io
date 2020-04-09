@@ -163,10 +163,6 @@ nav a:hover{
     
 }
 
-
-
-
-
 /***********RIVER GUIDE INFO*********/
 
 .guides{
@@ -183,15 +179,54 @@ nav a:hover{
     
 }
 
-
-
 /***********RESERVATION INFO*********/
 
 
 
 /***********CONTACT US INFO*********/
 
+#heading2{
+    text-align: left;
+    padding: 15px;
+}
 
+.contact-info{
+    display:grid;
+    grid-template-columns: 1fr;
+    padding: 15px;
+    width: 90%;
+}
+
+.contact-container, option, input, label, button{
+    padding: 0.2rem 1rem;
+    font-size: 1.2rem;
+    color: inherit;
+    text-align: left;
+}
+
+.contact{
+    padding: 0.5rem 0;
+    text-align: left;
+    justify-items: center;
+    justify-content: center;
+}
+
+.contact label{
+    display: none;
+}
+
+.contact input, .contact select, .contact textarea{
+    flex-basis: 100%;
+    color: black;
+}
+
+button{
+    color: black;
+}
+
+.map{
+    justify-content: center;
+}
 
 /***********FOOTER INFO*********/
 footer{

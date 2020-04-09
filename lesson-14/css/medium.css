@@ -70,13 +70,28 @@
 }
 
 
-
-
 /***********RESERVATION INFO*********/
 
 
 
 /***********CONTACT US INFO*********/
+
+#heading2{
+    text-align: center;
+    padding: 15px;
+}
+
+.contact-info{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact{
+    width: 50%;
+}
+.contact label{
+    display: block;
+}
 
 
 
