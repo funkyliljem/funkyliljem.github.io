@@ -8,10 +8,10 @@ body{
 }
 
 h1, p{
-    font-family: 'Average', serif; 
+    font-family: 'Cantata One', serif; 
 }
 
-h2, {
+h2 {
     font-family: 'Rokkitt'; 
 }
 
@@ -239,6 +239,10 @@ footer{
     align-items: center;
     justify-content: center;
     background-color: #a9e5bb;
+    color: #028FB7;
+}
+footer a {
+    color: #028FB7;
 }
 
 
