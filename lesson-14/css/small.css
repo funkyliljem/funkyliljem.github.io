@@ -151,14 +151,10 @@ nav a:hover{
 
 .weather-info{
     display: flex;
-    position: relative;
     border: 2px dashed white;
-    justify-content: center;
     padding-left: 5px;
     margin: 15px;  
     max-width: 400px;
-    text-align: center;
-    justify-items: center;
 }
 .report{
     text-align: center;
@@ -192,7 +188,7 @@ nav a:hover{
 #scale-pic{
     display: flex;
     padding: 20px;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
@@ -232,7 +228,7 @@ td{
 .reservation-container{
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 75%;
+    max-width: 80%;
 }
 
 #heading4{
