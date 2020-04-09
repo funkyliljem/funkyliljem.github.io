@@ -127,6 +127,7 @@ nav a:hover{
 
 #river{
     box-shadow: 0 0 20px #333;
+    
 }
 
 .adventure-container {
@@ -142,6 +143,10 @@ nav a:hover{
 	padding: 0 1rem;
     background-color: #F4F2F1;
     border-radius: 5px;
+}
+
+#begin, #inter, #advance{
+    box-shadow: 0 0 20px #333;
 }
 
 .weather-info{
