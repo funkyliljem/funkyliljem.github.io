@@ -192,16 +192,10 @@ nav a:hover{
 
 .scale{
     display: flex;
-    position: relative;
     padding: 20px;
     justify-items: center;
     align-items: center;
     text-align: center;
-}
-
-#scale-pic{
-    
-    
 }
 
 table{
