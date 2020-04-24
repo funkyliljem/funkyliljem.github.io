@@ -132,6 +132,7 @@ nav a:hover{
 
 .adventure-container {
     display: grid;
+    
     grid-template-columns: 1fr; 
     color: #028FB7; 
     
