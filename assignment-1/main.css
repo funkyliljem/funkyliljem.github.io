@@ -12,6 +12,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 body {
   background-color: #FAEBD7;
   margin: 0px;
+  width: 100%;
 }
 
 header {
