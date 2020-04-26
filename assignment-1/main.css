@@ -86,7 +86,7 @@ main {
 
 article {
   display: grid;
-  grid-template-column: 1fr;
+  grid-template-columns: 1fr;
   margin: 20px;
   padding: 40px;
 }
@@ -97,10 +97,6 @@ article {
 
 h2 a {
   color: black;
-}
-
-section {
-  
 }
 
 p a {
