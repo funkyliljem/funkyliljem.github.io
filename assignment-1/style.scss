@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+
+//Variables to follow
+@import 'colors';
+
+$font_family_1: lora;
+$font_family_2: helvetica, arial, sans-serif;
+
+//set breakpoint sizes 
+$break-small: 20em;
+$break-medium: 31em;
+
+
+@mixin breakpoint ($break) {
+@media (max-width: $break-medium) { @content; }
+@media (max-width: $break-small) { @content; }
+@media ($break) { @content; }
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	
+}
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+body {
+	background-color: $color_1;
+	margin: 0px;
+}
+header {
+	text-align: right;
+	background-color: $color_6;
+	margin-top: -20px;
+	padding: 20px;
+	font-family: $font_family_1;
+	a {
+		color: $color_1;
+		&:hover {
+			color: $color_2;
+			text-decoration: underline;
+		}
+		&:active {
+			color: $color_3;
+		}
+	}
+}
+h2 {
+	font-family: $font_family_1;
+	a {
+		color: $color_5;
+		&:hover {
+			color: $color_6;
+			text-decoration: underline;
+		}
+		&:active {
+			color: $color_3;
+		}
+	}
+}
+p {
+	font-family: $font_family_2;
+	a {
+		color: $color_6;
+		&:hover {
+			text-decoration: underline;
+		}
+		&:active {
+			color: $color_3;
+		}
+	}
+}
+hr {
+	margin: 20px;
+}
+h1 {
+	&:first-child {
+		margin: 20px;
+	}
+}
+nav {
+	display: block;
+	text-align: right;
+	ul {
+		list-style: none;
+		li {
+			padding: 10px;
+			font-family: $font_family_2;
+			a {
+				color: $color_1;
+			}
+		}
+	}
+	a {
+		&:hover {
+			color: $color_2;
+			text-decoration: underline;
+		}
+		&:active {
+			color: $color_3;
+		}
+	}
+}
+main {
+	background-color: $color_1;
+	margin: 20px;
+}
+article {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 20px;
+	padding: 40px;
+	&:first-child {
+		background-color: $color_2;
+		box-shadow: 5px 5px 5px $color_7;
+	}
+	&:last-child {
+		background-color: $color_2;
+		box-shadow: 5px 5px 5px $color_7;
+	}
+}
+.post-date {
+	color: $color_4;
+	font-family: $font_family_2;
+}
+figure {
+	padding: 60px 40px;
+	text-align: center;
+}
+img {
+	width: 230px;
+	height: 300px;
+}
+@media (min-width: $break-medium) {
+	header {
+		display: block;
+		float: left;
+		margin-bottom: 100%;
+		margin-right: 50px;
+		max-width: 250px;
+	}
+	nav {
+		display: block;
+		float: left;
+		margin-bottom: 100%;
+		margin-right: 50px;
+		max-width: 250px;
+		ul {
+			li {
+				text-align: right;
+			}
+		}
+	}
+}

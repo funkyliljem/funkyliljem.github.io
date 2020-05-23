@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #FAEBD7;
+  margin: 0px;
+}
+
+header {
+  text-align: right;
+  background-color: #6495ED;
+  margin-top: -20px;
+  padding: 20px;
+  font-family: lora;
+}
+
+header a {
+  color: #FAEBD7;
+}
+
+header a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+header a:active {
+  color: #DEB887;
+}
+
+h2 {
+  font-family: lora;
+}
+
+h2 a {
+  color: black;
+}
+
+h2 a:hover {
+  color: #6495ED;
+  text-decoration: underline;
+}
+
+h2 a:active {
+  color: #DEB887;
+}
+
+p {
+  font-family: helvetica, arial, sans-serif;
+}
+
+p a {
+  color: #6495ED;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+p a:active {
+  color: #DEB887;
+}
+
+hr {
+  margin: 20px;
+}
+
+h1:first-child {
+  margin: 20px;
+}
+
+nav {
+  display: block;
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  padding: 10px;
+  font-family: helvetica, arial, sans-serif;
+}
+
+nav ul li a {
+  color: #FAEBD7;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+nav a:active {
+  color: #DEB887;
+}
+
+main {
+  background-color: #FAEBD7;
+  margin: 20px;
+}
+
+article {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  margin: 20px;
+  padding: 40px;
+}
+
+article:first-child {
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 5px #C0C0C0;
+          box-shadow: 5px 5px 5px #C0C0C0;
+}
+
+article:last-child {
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 5px #C0C0C0;
+          box-shadow: 5px 5px 5px #C0C0C0;
+}
+
+.post-date {
+  color: grey;
+  font-family: helvetica, arial, sans-serif;
+}
+
+figure {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+img {
+  width: 230px;
+  height: 300px;
+}
+
+@media (min-width: 31em) {
+  header {
+    display: block;
+    float: left;
+    margin-bottom: 100%;
+    margin-right: 50px;
+    max-width: 250px;
+  }
+  nav {
+    display: block;
+    float: left;
+    margin-bottom: 100%;
+    margin-right: 50px;
+    max-width: 250px;
+  }
+  nav ul li {
+    text-align: right;
+  }
+}
+/*# sourceMappingURL=style.css.map */
