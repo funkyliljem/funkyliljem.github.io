@@ -31,39 +31,73 @@ img {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-
-body, html {
+////////////////////////////////////////////////////
+header {
   margin: 0;
+  height: 5rem;
+}
+
+main {
+  margin: 0;
+  display: grid;
+  
 }
 
 //Small View
 
 //******************HEADER/NAV******************//
 //top banner area
-.site-banner.white-text {
+.site-banner {
   border: 1px solid red;
   background-color: $link-blue;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr;
 }
 
 //BYUI - Logo top left
 .icon-byui-logo {
-  color: white;
   background-color: $body-font;
+  float: left;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+  font-size: 40px;
 }
 
 //"Home" section to the right of BYUI
 .site-banner__left {
-  background-color: $med-gray;
+  border: 1px solid green;
+  text-decoration: none;
 }
+
 //Icon Links to top right
 .site-banner__right {
-  margin-bottom: 60px;
+  text-align: right;
+  text-decoration: none;
 }
 
 .mobile-header-icon {
   color: white;
   text-decoration: none;
+  font-size: 20px;
 }
+
+.grey-school-name {
+  border: 1px solid purple;
+  background-color: $light-gray;
+  color: black;
+  font-family: 'BYUI Open Sans';
+  grid-column: span 3;
+  grid-row: 2 / 3;
+  text-align: center;
+}
+
+//******************MAIN********************//
+
+
+
+
 
 
 

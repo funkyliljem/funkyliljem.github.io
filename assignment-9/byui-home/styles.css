@@ -1032,30 +1032,64 @@ img {
   border: 0;
 }
 
-body, html {
+header {
   margin: 0;
+  height: 5rem;
 }
 
-.site-banner.white-text {
+main {
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+}
+
+.site-banner {
   border: 1px solid red;
   background-color: #0076b6;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr 1fr;
+      grid-template-columns: 1fr 3fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
 }
 
 .icon-byui-logo {
-  color: white;
   background-color: #020202;
+  float: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  color: white;
+  font-size: 40px;
 }
 
 .site-banner__left {
-  background-color: #b4b3b5;
+  border: 1px solid green;
+  text-decoration: none;
 }
 
 .site-banner__right {
-  margin-bottom: 60px;
+  text-align: right;
+  text-decoration: none;
 }
 
 .mobile-header-icon {
   color: white;
   text-decoration: none;
+  font-size: 20px;
+}
+
+.grey-school-name {
+  border: 1px solid purple;
+  background-color: #eaeaea;
+  color: black;
+  font-family: 'BYUI Open Sans';
+  grid-column: span 3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */
