@@ -31,3 +31,42 @@ img {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+
+body, html {
+  margin: 0;
+}
+
+//Small View
+
+//******************HEADER/NAV******************//
+//top banner area
+.site-banner.white-text {
+  border: 1px solid red;
+  background-color: $link-blue;
+}
+
+//BYUI - Logo top left
+.icon-byui-logo {
+  color: white;
+  background-color: $body-font;
+}
+
+//"Home" section to the right of BYUI
+.site-banner__left {
+  background-color: $med-gray;
+}
+//Icon Links to top right
+.site-banner__right {
+  margin-bottom: 60px;
+}
+
+.mobile-header-icon {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+
