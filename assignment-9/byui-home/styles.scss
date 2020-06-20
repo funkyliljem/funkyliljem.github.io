@@ -50,7 +50,6 @@ header {
 
 main {
   margin: 0;
-  border: 1px dashed red;
   max-width: max vw;
 }
 
@@ -83,7 +82,6 @@ h4{
 
 //"Home" section to the right of BYUI
 .site-banner__left {
-  border: 1px solid green;
   text-decoration: none;
 }
 
@@ -106,7 +104,6 @@ h4{
 }
 
 .grey-school-name {
-  border: 1px solid purple;
   background-color: $light-gray;
   color: black;
   font-family: 'BYUI Open Sans';
@@ -118,7 +115,6 @@ h4{
 //******************MAIN********************//
 
 .top-container{
-  border: 1px solid blue;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;

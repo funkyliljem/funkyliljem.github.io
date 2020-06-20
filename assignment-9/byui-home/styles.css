@@ -1039,7 +1039,6 @@ header {
 
 main {
   margin: 0;
-  border: 1px dashed red;
   max-width: max vw;
 }
 
@@ -1070,7 +1069,6 @@ h4 {
 }
 
 .site-banner__left {
-  border: 1px solid green;
   text-decoration: none;
 }
 
@@ -1096,7 +1094,6 @@ h4 {
 }
 
 .grey-school-name {
-  border: 1px solid purple;
   background-color: #eaeaea;
   color: black;
   font-family: 'BYUI Open Sans';
@@ -1108,7 +1105,6 @@ h4 {
 }
 
 .top-container {
-  border: 1px solid blue;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
