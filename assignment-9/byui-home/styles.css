@@ -1095,13 +1095,15 @@ h4 {
 
 .grey-school-name {
   background-color: #eaeaea;
-  color: black;
+  color: #727272;
   font-family: 'BYUI Open Sans';
   grid-column: span 3;
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2 / 3;
   text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
 }
 
 .top-container {
@@ -1185,10 +1187,11 @@ h4 {
       -ms-flex-pack: center;
           justify-content: center;
   border: 1px solid #b4b3b5;
-  width: 190px;
-  height: 165px;
+  width: 160px;
+  height: 145px;
   color: #0076b6;
   font-family: 'BYUI Open Sans';
+  font-weight: lighter;
 }
 
 .campus-videos h4 {
@@ -1206,10 +1209,11 @@ h4 {
       -ms-flex-pack: center;
           justify-content: center;
   border: 1px solid #b4b3b5;
-  width: 190px;
-  height: 165px;
+  width: 160px;
+  height: 145px;
   color: #0076b6;
   font-family: 'BYUI Open Sans';
+  font-weight: lighter;
 }
 
 .photo-gallery h4 {
@@ -1227,10 +1231,11 @@ h4 {
       -ms-flex-pack: right;
           justify-content: right;
   border: 1px solid #b4b3b5;
-  width: 190px;
-  height: 165px;
+  width: 160px;
+  height: 145px;
   color: #0076b6;
   font-family: 'BYUI Open Sans';
+  font-weight: lighter;
 }
 
 .explore-campus h4 {
@@ -1244,6 +1249,17 @@ h4 {
   -ms-grid-row: 9;
   -ms-grid-row-span: 1;
   grid-row: 9 / 10;
+}
+
+.resources-header {
+  display: block;
+  margin: 0 auto;
+  margin-top: 35px;
+  padding: 8px 20px;
+  background-color: #727272;
+  color: white;
+  font-family: 'BYUI Open Sans';
+  text-align: center;
 }
 
 .dates {
@@ -1391,6 +1407,19 @@ h4 {
     grid-row: 5 / 6;
   }
   .photo-gallery {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / 3;
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    grid-row: 5 / 6;
+    text-align: left;
+    -ms-flex-line-pack: right;
+        align-content: right;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .explore-campus {
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 2 / 3;
@@ -1398,21 +1427,10 @@ h4 {
     -ms-grid-row-span: 1;
     grid-row: 5 / 6;
     text-align: left;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .explore-campus {
-    -ms-grid-column: 3;
-    -ms-grid-column-span: 1;
-    grid-column: 3  / 4;
-    -ms-grid-row: 5;
-    -ms-grid-row-span: 1;
-    grid-row: 5 / 6;
-    text-align: left;
-    -ms-flex-item-align: right;
-        -ms-grid-row-align: right;
-        align-self: right;
+    -ms-flex-line-pack: right;
+        align-content: right;
+    -ms-grid-column-align: right;
+        justify-self: right;
   }
   .get-info-box {
     -ms-grid-column: 3;
@@ -1436,10 +1454,13 @@ h4 {
     -ms-grid-column-span: 1;
     grid-column: 3 / 4;
     -ms-grid-row: 4;
-    -ms-grid-row-span: 1;
-    grid-row: 4 / 5;
+    -ms-grid-row-span: 2;
+    grid-row: 4 / 6;
     max-width: 250px;
     padding-left: 25px;
+    -ms-grid-column-align: bottom;
+        justify-self: bottom;
+    padding-top: 75px;
   }
   .considerations {
     -ms-grid-column: 1;
